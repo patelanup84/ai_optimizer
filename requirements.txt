@@ -1,0 +1,6 @@
+# requirements.txt
+pocketflow
+openai>=1.0.0
+google-generativeai>=0.3.0
+pyyaml>=6.0
+requests>=2.25.0
