@@ -1,0 +1,97 @@
+# templates/loading.html
+{% extends "base.html" %}
+
+{% block title %}Analysis in Progress - AI Brand Optimizer{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="main-title">Analysis in Progress</h1>
+    <p class="subtitle">We're analyzing your brand across AI platforms...</p>
+</div>
+
+<div class="card text-center" style="max-width: 600px; margin: 0 auto;">
+    <div class="loading-spinner"></div>
+
+    <h3 style="font-weight: 900; margin-bottom: 1rem;">Processing Your Brand Analysis</h3>
+
+    <div id="progress-text" style="color: var(--medium-gray); margin-bottom: 2rem;">
+        Initializing analysis...
+    </div>
+
+    <div class="output-window" style="text-align: left;">
+        <h4 style="font-weight: 900; margin-bottom: 1rem;">What's happening:</h4>
+        <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 0.5rem;" id="step-1">🔄 Generating strategic queries across 4 categories</li>
+            <li style="margin-bottom: 0.5rem;" id="step-2">⏳ Querying ChatGPT & Gemini (20 queries total)</li>
+            <li style="margin-bottom: 0.5rem;" id="step-3">⏳ Analyzing responses for brand mentions</li>
+            <li style="margin-bottom: 0.5rem;" id="step-4">⏳ Calculating organic mention rates</li>
+            <li style="margin-bottom: 0.5rem;" id="step-5">⏳ Generating strategic recommendations</li>
+            <li style="margin-bottom: 0.5rem;" id="step-6">⏳ Creating comprehensive report</li>
+        </ul>
+    </div>
+
+    <div style="background-color: var(--off-white); padding: 1rem; border-radius: 6px; margin-top: 1rem;">
+        <p style="font-size: 0.9rem; color: var(--medium-gray);">
+            <strong>Estimated time:</strong> 3-5 minutes<br>
+            This page will automatically redirect when complete.
+        </p>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    let stepIndex = 1;
+    const steps = [
+        "Generating strategic queries...",
+        "Querying AI platforms...",
+        "Analyzing brand mentions...",
+        "Calculating organic metrics...",
+        "Generating recommendations...",
+        "Creating final report..."
+    ];
+
+    function updateProgress() {
+        const progressText = document.getElementById('progress-text');
+        if (stepIndex <= steps.length) {
+            progressText.textContent = steps[stepIndex - 1];
+
+            // Update step visual feedback
+            const currentStep = document.getElementById(`step-${stepIndex}`);
+            if (currentStep) {
+                currentStep.innerHTML = currentStep.innerHTML.replace('⏳', '✅').replace('🔄', '✅');
+                currentStep.style.color = '#4CAF50';
+            }
+
+            stepIndex++;
+        }
+    }
+
+    function checkStatus() {
+        fetch(`/api/status/{{ session_id }}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'completed') {
+                    window.location.href = data.redirect_url;
+                } else if (data.status === 'error') {
+                    document.getElementById('progress-text').innerHTML =
+                        `<span style="color: #f44336;">Error: ${data.error}</span>`;
+                    document.querySelector('.loading-spinner').style.display = 'none';
+                } else {
+                    // Still running, check again in 2 seconds
+                    setTimeout(checkStatus, 2000);
+                }
+            })
+            .catch(error => {
+                console.error('Status check failed:', error);
+                setTimeout(checkStatus, 3000); // Retry after longer delay
+            });
+    }
+
+    // Start checking status immediately
+    checkStatus();
+
+    // Update progress visually every 15 seconds
+    setInterval(updateProgress, 15000);
+</script>
+{% endblock %}

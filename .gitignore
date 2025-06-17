@@ -92,8 +92,11 @@ coverage/
 .node_repl_history 
 
 # project
+.vscode/
 _support/
 .venv/
 .env
-docs/
 output/
+.cursorrules
+.gitignore
+docs/

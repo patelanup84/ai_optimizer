@@ -1,0 +1,85 @@
+# templates/index.html
+{% extends "base.html" %}
+
+{% block title %}Brand Analysis Setup - AI Brand Optimizer{% endblock %}
+
+{% block content %}
+<div class="text-center mb-3">
+    <h1 class="main-title">AI Brand Intelligence</h1>
+    <p class="subtitle">Discover how your brand appears across AI-powered search engines</p>
+</div>
+
+<form action="{{ url_for('analyze') }}" method="POST" class="card" style="max-width: 800px; margin: 0 auto;">
+    <h2 class="section-title mb-2">Brand Configuration</h2>
+
+    <div class="form-grid">
+        <div class="input-field">
+            <label for="brand_name">Brand Name</label>
+            <input type="text" id="brand_name" name="brand_name" required placeholder="e.g., Prominent Homes">
+            <div class="input-description">
+                The exact name of your company or brand
+            </div>
+        </div>
+
+        <div class="input-field">
+            <label for="industry">Industry/Category</label>
+            <input type="text" id="industry" name="industry" required placeholder="e.g., home building">
+            <div class="input-description">
+                What industry or category your business operates in
+            </div>
+        </div>
+    </div>
+
+    <div class="input-field">
+        <label for="keywords">Service Keywords</label>
+        <textarea id="keywords" name="keywords" rows="4"
+            placeholder="home builder&#10;calgary&#10;custom homes&#10;residential construction"></textarea>
+        <div class="input-description">
+            Enter service/product keywords (one per line). Do NOT include your brand name - these should be generic
+            terms your customers search for.
+        </div>
+    </div>
+
+    <div class="text-center mt-2">
+        <button type="submit" class="btn">
+            Start AI Brand Analysis
+        </button>
+    </div>
+</form>
+
+<div class="card-grid mt-3">
+    <div class="card">
+        <h3 style="font-weight: 900; margin-bottom: 1rem;">📊 What We Analyze</h3>
+        <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 0.5rem;">✓ Brand mentions across ChatGPT & Gemini</li>
+            <li style="margin-bottom: 0.5rem;">✓ Organic visibility (without brand name)</li>
+            <li style="margin-bottom: 0.5rem;">✓ Competitor analysis & positioning</li>
+            <li style="margin-bottom: 0.5rem;">✓ Strategic recommendations</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3 style="font-weight: 900; margin-bottom: 1rem;">🎯 How It Works</h3>
+        <ol style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 0.5rem;">1. Generate strategic search queries</li>
+            <li style="margin-bottom: 0.5rem;">2. Query AI platforms across 4 categories</li>
+            <li style="margin-bottom: 0.5rem;">3. Analyze mentions & sentiment</li>
+            <li style="margin-bottom: 0.5rem;">4. Provide actionable insights</li>
+        </ol>
+    </div>
+
+    <div class="card">
+        <h3 style="font-weight: 900; margin-bottom: 1rem;">⏱️ Analysis Time</h3>
+        <p style="margin-bottom: 0.5rem;">Typically takes <strong>3-5 minutes</strong></p>
+        <p style="color: var(--medium-gray); font-size: 0.9rem;">
+            We query 20 strategic questions across multiple AI platforms to give you comprehensive insights.
+        </p>
+    </div>
+</div>
+
+<div class="text-center mt-3">
+    <a href="{{ url_for('history') }}" class="btn-secondary btn">
+        View Previous Analyses
+    </a>
+</div>
+{% endblock %}

@@ -1,0 +1,81 @@
+# templates/history.html
+{% extends "base.html" %}
+
+{% block title %}Analysis History - AI Brand Optimizer{% endblock %}
+
+{% block content %}
+<div class="text-center mb-3">
+    <h1 class="main-title">Analysis History</h1>
+    <p class="subtitle">Previous brand intelligence reports</p>
+</div>
+
+{% if brands %}
+<div class="card">
+    <h2 class="section-title">Analyzed Brands</h2>
+
+    {% for brand_id, brand_data in brands.items() %}
+    <div class="output-window">
+        <h3 style="font-weight: 900; margin-bottom: 1rem;">{{ brand_data.name }}</h3>
+        <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; font-size: 0.9rem;">
+            <div><strong>Industry:</strong> {{ brand_data.industry }}</div>
+            <div><strong>Keywords:</strong> {{ brand_data.keywords|join(', ') }}</div>
+            <div><strong>Last Updated:</strong> {{ brand_data.updated_at[:10] if brand_data.updated_at else 'Unknown' }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% if reports %}
+<div class="card">
+    <h2 class="section-title">Recent Reports</h2>
+    <p style="color: var(--medium-gray); margin-bottom: 2rem;">
+        Total reports generated: {{ reports|length }}
+    </p>
+
+    {% set latest_report = reports[-1] %}
+    {% if latest_report.summary %}
+    <div class="output-window">
+        <h3 style="font-weight: 900; margin-bottom: 1rem;">Latest Analysis Summary</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem;">
+            <div>
+                <strong>Mentions:</strong> {{ latest_report.summary.total_mentions }}
+            </div>
+            <div>
+                <strong>Sentiment:</strong>
+                <span
+                    style="color: {% if latest_report.summary.avg_sentiment > 0.2 %}#4CAF50{% elif latest_report.summary.avg_sentiment < -0.2 %}#f44336{% else %}#ff9800{% endif %};">
+                    {{ latest_report.summary.avg_sentiment|round(2) }}
+                </span>
+            </div>
+            <div>
+                <strong>Status:</strong> {{ latest_report.summary.status|title }}
+            </div>
+            <div>
+                <strong>Generated:</strong> {{ latest_report.generated_at[:10] if latest_report.generated_at else
+                'Unknown' }}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+{% else %}
+<div class="card text-center">
+    <h3 style="font-weight: 900; margin-bottom: 1rem;">No Analysis History</h3>
+    <p style="color: var(--medium-gray); margin-bottom: 2rem;">
+        You haven't run any brand analyses yet. Start your first analysis to see your brand's AI visibility.
+    </p>
+    <a href="{{ url_for('index') }}" class="btn">
+        Run Your First Analysis
+    </a>
+</div>
+{% endif %}
+
+<div class="text-center mt-3">
+    <a href="{{ url_for('index') }}" class="btn">
+        New Analysis
+    </a>
+</div>
+{% endblock %}

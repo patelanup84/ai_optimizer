@@ -1,0 +1,255 @@
+# templates/results.html
+{% extends "base.html" %}
+
+{% block title %}Analysis Results - AI Brand Optimizer{% endblock %}
+
+{% block content %}
+<div class="text-center mb-3">
+    <h1 class="main-title">Brand Intelligence Report</h1>
+    <p class="subtitle">{{ data.brand_config.name }} - {{ data.brand_config.industry|title }}</p>
+</div>
+
+<!-- Key Metrics Hero Section -->
+<div class="card"
+    style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center;">
+    <h2 style="font-weight: 900; margin-bottom: 2rem; color: white;">🎯 Key Performance Metrics</h2>
+
+    <div class="card-grid" style="color: white;">
+        <div>
+            <div style="font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem;">
+                {{ data.analysis.total_responses }}
+            </div>
+            <div style="font-size: 1rem;">Total Queries Analyzed</div>
+        </div>
+
+        <div>
+            <div style="font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem;">
+                {{ data.analysis.total_mentions }}
+            </div>
+            <div style="font-size: 1rem;">Total Brand Mentions</div>
+        </div>
+
+        <div>
+            <div style="font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem;">
+                {{ data.analysis.total_organic_mentions }}
+            </div>
+            <div style="font-size: 1rem;">Organic Mentions</div>
+        </div>
+
+        <div>
+            <div style="font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem;">
+                {{ (data.analysis.organic_mention_rate * 100)|round(1) }}%
+            </div>
+            <div style="font-size: 1rem;">Organic Mention Rate</div>
+        </div>
+    </div>
+</div>
+
+<!-- Key Insight -->
+<div class="card" style="background-color: #fff3cd; border-color: #ffeaa7;">
+    <h3 style="font-weight: 900; margin-bottom: 1rem;">💡 Key Insight</h3>
+    {% set organic_rate = data.analysis.organic_mention_rate %}
+    {% if organic_rate == 0 %}
+    <p><strong>No organic visibility detected.</strong> Your brand doesn't appear when users ask generic questions about
+        {{ data.brand_config.industry }}. This suggests limited AI search authority.</p>
+    <p style="margin-top: 1rem; color: var(--medium-gray);">
+        <em>Organic mentions occur when AI mentions your brand in response to queries that don't include your brand
+            name.</em>
+    </p>
+    {% elif organic_rate < 0.1 %} <p><strong>Low organic visibility ({{ (organic_rate * 100)|round(1) }}%).</strong>
+        Your brand occasionally appears in category searches, but there's significant room for improvement.</p>
+        {% else %}
+        <p><strong>Good organic visibility ({{ (organic_rate * 100)|round(1) }}%)!</strong> Your brand appears when
+            users explore the category without mentioning you directly.</p>
+        {% endif %}
+</div>
+
+<!-- Query Category Performance -->
+<div class="card">
+    <h2 class="section-title">📊 Query Category Performance</h2>
+    <div class="card-grid">
+        {% for category, metrics in data.analysis.category_breakdown.items() %}
+        {% if metrics.total > 0 %}
+        <div class="card">
+            <h4 style="font-weight: 900; margin-bottom: 1rem;">
+                {{ category.replace('_', ' ')|title }}
+            </h4>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; font-size: 0.9rem;">
+                <div><strong>Queries:</strong> {{ metrics.total }}</div>
+                <div><strong>Mentions:</strong> {{ metrics.mentions }}</div>
+                <div><strong>Organic:</strong> {{ metrics.organic_mentions }}</div>
+                <div><strong>Rate:</strong> {{ ((metrics.organic_mentions / metrics.total) * 100)|round(1) if
+                    metrics.total > 0 else 0 }}%</div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Platform Performance -->
+<div class="card">
+    <h2 class="section-title">🤖 Platform Performance</h2>
+
+    {% for platform, responses in data.ai_responses.items() %}
+    {% set total_mentions = responses|selectattr('analysis')|sum(attribute='analysis.mentions_found') %}
+    {% set organic_mentions = responses|selectattr('analysis.organic_mention')|sum(attribute='analysis.mentions_found')
+    %}
+    {% set avg_sentiment = (responses|selectattr('analysis')|map(attribute='analysis.sentiment_score')|list|sum /
+    responses|length)|round(2) if responses else 0 %}
+
+    <div class="output-window">
+        <h3 style="font-weight: 900; margin-bottom: 1rem;">{{ platform.upper() }}</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem;">
+            <div><strong>Responses:</strong> {{ responses|length }}</div>
+            <div><strong>Total Mentions:</strong> {{ total_mentions }}</div>
+            <div><strong>Organic Mentions:</strong> {{ organic_mentions }}</div>
+            <div><strong>Organic Rate:</strong> {{ ((organic_mentions / responses|length) * 100)|round(1) if responses
+                else 0 }}%</div>
+            <div>
+                <strong>Avg Sentiment:</strong>
+                <span
+                    style="color: {% if avg_sentiment > 0.2 %}#4CAF50{% elif avg_sentiment < -0.2 %}#f44336{% else %}#ff9800{% endif %}; font-weight: 900;">
+                    {{ avg_sentiment }}
+                </span>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Sample Mentions -->
+<div class="card">
+    <h2 class="section-title">📝 Sample Brand Mentions</h2>
+    <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="background-color: var(--light-gray);">
+                    <th style="padding: 0.75rem; border: 1px solid var(--light-gray); font-weight: 900;">Platform</th>
+                    <th style="padding: 0.75rem; border: 1px solid var(--light-gray); font-weight: 900;">Category</th>
+                    <th style="padding: 0.75rem; border: 1px solid var(--light-gray); font-weight: 900;">Query</th>
+                    <th style="padding: 0.75rem; border: 1px solid var(--light-gray); font-weight: 900;">Type</th>
+                    <th style="padding: 0.75rem; border: 1px solid var(--light-gray); font-weight: 900;">Sentiment</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% set mention_count = 0 %}
+                {% for platform, responses in data.ai_responses.items() %}
+                {% for response in responses %}
+                {% if response.analysis and response.analysis.mentions %}
+                {% if mention_count < 10 %} {% set mention_count=mention_count + 1 %} <tr>
+                    <td style="padding: 0.75rem; border: 1px solid var(--light-gray);">{{ platform.upper() }}</td>
+                    <td style="padding: 0.75rem; border: 1px solid var(--light-gray);">{{
+                        response.analysis.query_category.replace('_', ' ')|title }}</td>
+                    <td style="padding: 0.75rem; border: 1px solid var(--light-gray);">{{ response.query[:60] }}...</td>
+                    <td style="padding: 0.75rem; border: 1px solid var(--light-gray);">
+                        <strong>{{ 'Organic' if response.analysis.organic_mention else 'Direct' }}</strong>
+                    </td>
+                    <td style="padding: 0.75rem; border: 1px solid var(--light-gray);">
+                        <span
+                            style="color: {% if response.analysis.sentiment_score > 0.2 %}#4CAF50{% elif response.analysis.sentiment_score < -0.2 %}#f44336{% else %}#ff9800{% endif %}; font-weight: 900;">
+                            {{ response.analysis.sentiment_label|title }}
+                        </span>
+                    </td>
+                    </tr>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Raw Responses Sample -->
+<div class="card">
+    <h2 class="section-title">🔍 Sample AI Responses</h2>
+    <p style="color: var(--medium-gray); margin-bottom: 2rem;">Sample of actual AI responses for transparency and
+        verification:</p>
+
+    {% set response_count = 0 %}
+    {% for platform, responses in data.ai_responses.items() %}
+    {% for response in responses[:2] %}
+    {% if response.status == 'success' and response_count < 4 %} {% set response_count=response_count + 1 %} <div
+        class="output-window">
+        <h4 style="font-weight: 900; margin-bottom: 1rem;">
+            {{ platform.upper() }} - {{ response.category.replace('_', ' ')|title if response.category else 'Unknown' }}
+        </h4>
+        <p style="margin-bottom: 1rem;"><strong>Query:</strong> {{ response.query }}</p>
+        <div
+            style="background-color: var(--off-white); padding: 1rem; border-radius: 6px; font-family: monospace; font-size: 0.85rem; max-height: 200px; overflow-y: auto;">
+            <strong>AI Response:</strong><br>
+            {{ response.response[:500] }}{% if response.response|length > 500 %}...{% endif %}
+        </div>
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</div>
+
+<!-- Strategic Recommendations -->
+<div class="card">
+    <h2 class="section-title">💡 Strategic Recommendations</h2>
+
+    {% if data.recommendations and data.recommendations.recommendations %}
+    <div class="card-grid">
+        {% for rec in data.recommendations.recommendations[:3] %}
+        <div class="card"
+            style="border-left: 4px solid {% if rec.priority == 'high' %}#f44336{% elif rec.priority == 'medium' %}#ff9800{% else %}#4CAF50{% endif %};">
+            <div
+                style="background-color: {% if rec.priority == 'high' %}#fee{% elif rec.priority == 'medium' %}#fff3cd{% else %}#efe{% endif %}; padding: 0.5rem; border-radius: 4px; margin-bottom: 1rem;">
+                <strong>{{ rec.priority.upper() }} PRIORITY</strong>
+            </div>
+            <h4 style="font-weight: 900; margin-bottom: 1rem;">{{ rec.action }}</h4>
+            <p style="color: var(--medium-gray); font-size: 0.9rem;">{{ rec.rationale }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <ul style="list-style: none; padding: 0;">
+        {% if data.analysis.total_organic_mentions == 0 %}
+        <li style="margin-bottom: 1rem; padding: 1rem; background-color: #fee; border-left: 4px solid #f44336;">
+            <strong>Critical:</strong> Create authoritative content for category exploration queries. You need to
+            establish thought leadership in your industry.
+        </li>
+        <li style="margin-bottom: 1rem; padding: 1rem; background-color: #fff3cd; border-left: 4px solid #ff9800;">
+            <strong>High Priority:</strong> Develop comprehensive FAQ content that answers common questions in your
+            field.
+        </li>
+        <li style="margin-bottom: 1rem; padding: 1rem; background-color: #efe; border-left: 4px solid #4CAF50;">
+            <strong>Medium Priority:</strong> Build industry expertise content that AI systems can reference.
+        </li>
+        {% elif data.analysis.organic_mention_rate < 0.1 %} <li
+            style="margin-bottom: 1rem; padding: 1rem; background-color: #fff3cd; border-left: 4px solid #ff9800;">
+            <strong>High Priority:</strong> Expand content marketing to cover more category-based topics.
+            </li>
+            <li style="margin-bottom: 1rem; padding: 1rem; background-color: #efe; border-left: 4px solid #4CAF50;">
+                <strong>Medium Priority:</strong> Create educational content positioning you as an industry authority.
+            </li>
+            {% else %}
+            <li style="margin-bottom: 1rem; padding: 1rem; background-color: #efe; border-left: 4px solid #4CAF50;">
+                <strong>Maintain:</strong> Continue your content strategy as you have good organic visibility!
+            </li>
+            {% endif %}
+    </ul>
+    {% endif %}
+</div>
+
+<!-- Actions -->
+<div class="text-center mt-3">
+    <a href="{{ url_for('index') }}" class="btn">
+        Run New Analysis
+    </a>
+    <a href="{{ url_for('history') }}" class="btn-secondary">
+        View History
+    </a>
+</div>
+
+<div
+    style="margin-top: 2rem; padding: 1.5rem; background-color: var(--off-white); border-radius: 8px; text-align: center;">
+    <p style="color: var(--medium-gray); font-size: 0.9rem;">
+        <em>This report analyzes how your brand appears in AI-powered search engines.
+            Organic mentions (without your brand name in queries) indicate stronger market authority.</em>
+    </p>
+</div>
+{% endblock %}
