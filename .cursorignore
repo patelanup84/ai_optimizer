@@ -1,0 +1,6 @@
+.venv/
+.env
+_support/
+.vscode/
+
+

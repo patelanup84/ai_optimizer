@@ -495,10 +495,15 @@ def generate_performance_report(analysis_data: Dict[str, Any]) -> str:
 
 def save_report(report_html: str, filename: str = None) -> str:
     """Save report to file and return filename"""
+    import os
+    from datetime import datetime
     if not filename:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"ai_brand_report_{timestamp}.html"
-    
+        filename = f"data/reports/ai_brand_report_{timestamp}.html"
+    else:
+        # If a filename is provided but not in data/reports, prepend the directory
+        if not filename.startswith("data/reports/"):
+            filename = os.path.join("data/reports", filename)
     try:
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(report_html)

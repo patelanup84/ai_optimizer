@@ -2,12 +2,14 @@
 import os
 import uuid
 import time
-from flask import Flask, render_template, request, redirect, url_for, flash, jsonify
+from flask import Flask, render_template, request, redirect, url_for, flash, jsonify, send_file
 from dotenv import load_dotenv
 from flow import create_brand_monitoring_flow
 from utils.database import SimpleJSONDB
+from utils.pdf_generator import PDFGenerator
 import threading
 from datetime import datetime
+import io
 
 load_dotenv()
 
@@ -16,6 +18,9 @@ app.secret_key = os.urandom(24)
 
 # Store for tracking analysis sessions
 analysis_sessions = {}
+
+# Initialize PDF generator
+pdf_generator = PDFGenerator(app.root_path)
 
 def run_analysis_async(session_id, brand_config):
     """Run brand analysis in background and store results"""
@@ -38,11 +43,19 @@ def run_analysis_async(session_id, brand_config):
         db = SimpleJSONDB()
         brand_id = db.store_brand_config(brand_config)
         
-        # Store analysis results
+        # Store analysis results with defaults
         analysis_data = {
             "session_id": session_id,
             "brand_config": shared.get("brand_config", {}),
-            "analysis": shared.get("analysis", {}),
+            "analysis": {
+                "total_responses": shared.get("analysis", {}).get("total_responses", 0),
+                "total_mentions": shared.get("analysis", {}).get("total_mentions", 0),
+                "total_organic_mentions": shared.get("analysis", {}).get("total_organic_mentions", 0),
+                "organic_mention_rate": shared.get("analysis", {}).get("organic_mention_rate", 0),
+                "avg_sentiment": shared.get("analysis", {}).get("avg_sentiment", 0),
+                "category_breakdown": shared.get("analysis", {}).get("category_breakdown", {}),
+                **shared.get("analysis", {})  # Include any other fields
+            },
             "ai_responses": shared.get("ai_responses", {}),
             "recommendations": shared.get("recommendations", {}),
             "reports": shared.get("reports", {}),
@@ -175,6 +188,36 @@ def history():
     
     return render_template('history.html', brands=brands, reports=reports)
 
+@app.route('/download-pdf/<session_id>')
+def download_pdf(session_id):
+    """Download analysis results as PDF"""
+    try:
+        session_data = analysis_sessions.get(session_id)
+        
+        if not session_data or session_data.get("status") != "completed":
+            flash('Analysis results not found or not ready', 'error')
+            return redirect(url_for('index'))
+        
+        results_data = session_data.get("results", {})
+        brand_name = results_data.get("brand_config", {}).get("name", "Unknown Brand")
+        
+        # Generate PDF
+        pdf_content = pdf_generator.generate_pdf(results_data)
+        
+        # Create filename
+        filename = pdf_generator.get_filename(brand_name)
+        
+        # Return PDF as downloadable file
+        return send_file(
+            io.BytesIO(pdf_content),
+            mimetype='application/pdf',
+            as_attachment=True,
+            download_name=filename
+        )
+        
+    except Exception as e:
+        flash(f'Error generating PDF: {str(e)}', 'error')
+        return redirect(url_for('results', session_id=session_id))
+
 if __name__ == '__main__':
     app.run(debug=True)
-

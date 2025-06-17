@@ -9,6 +9,7 @@ A Generative Engine Optimization (GEO) platform that helps brands monitor and op
 - **Brand Mention Analysis**: Analyze sentiment and context of brand mentions
 - **AI-Powered Optimization**: Generate content and strategy recommendations
 - **Comprehensive Reporting**: Performance dashboards and detailed analytics
+- **PDF Report Export**: Download professional PDF reports for sharing and archiving
 - **Historical Tracking**: Store and analyze performance trends over time
 
 ## Quick Start
@@ -18,6 +19,8 @@ A Generative Engine Optimization (GEO) platform that helps brands monitor and op
 ```bash
 pip install -r requirements.txt
 ```
+
+That's it! All dependencies including PDF generation are included in the requirements file.
 
 ### 2. Set Environment Variables
 
@@ -32,7 +35,7 @@ export GOOGLE_API_KEY="your-google-api-key"
 ### 3. Run the Application
 
 ```bash
-python main.py
+python app.py
 ```
 
 ## Project Structure
@@ -40,6 +43,7 @@ python main.py
 ```
 ai-brand-optimizer/
 ├── main.py                 # Main application entry point
+├── app.py                  # Flask web application
 ├── nodes.py                # PocketFlow node definitions
 ├── flow.py                 # Flow orchestration
 ├── utils/
@@ -47,7 +51,13 @@ ai-brand-optimizer/
 │   ├── ai_platforms.py    # AI platform API interfaces
 │   ├── text_analysis.py   # Brand mention analysis
 │   ├── report_generator.py # HTML report generation
+│   ├── pdf_generator.py   # PDF report generation (reportlab)
 │   └── database.py        # Simple JSON database
+├── templates/
+│   ├── results.html       # Web results page
+│   └── pdf_report.html    # PDF report template
+├── static/
+│   └── style.css          # Styling for web and PDF
 ├── requirements.txt        # Python dependencies
 └── README.md              # This file
 ```
@@ -115,12 +125,21 @@ When running the application, you'll be prompted to configure:
 
 ## Reports
 
-The tool generates comprehensive HTML reports including:
+The tool generates comprehensive reports in multiple formats:
 
+### Web Reports
 - **Key Metrics**: Total mentions, sentiment scores, mention rates
 - **Platform Performance**: Breakdown by ChatGPT vs Gemini
 - **Recent Mentions**: Sample mentions with context and sentiment
 - **Optimization Recommendations**: AI-generated improvement suggestions
+
+### PDF Reports
+Professional PDF reports include:
+- **Executive Summary**: Key performance metrics and insights
+- **Platform Performance**: Comparative analysis across AI platforms
+- **Strategic Recommendations**: Prioritized improvement suggestions
+
+**Download PDF**: Click the "📄 Download PDF Report" button on the results page to get a professional PDF report.
 
 ## Architecture
 

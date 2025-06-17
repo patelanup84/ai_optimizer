@@ -1,0 +1,1800 @@
+{
+  "brands": {
+    "prominent_homes": {
+      "name": "Prominent Homes",
+      "keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "industry": "Home builder",
+      "updated_at": "2025-06-16T22:42:30.053942"
+    }
+  },
+  "queries": [],
+  "responses": [
+    {
+      "platform": "chatgpt",
+      "query": "Who are the best home builders in Calgary?",
+      "response": "When looking for the best home builders in Calgary, it's important to consider factors such as reputation, experience, customer reviews, and the types of homes they specialize in. Here are some well-regarded home builders in Calgary:\n\n1. **Calbridge Homes** - Known for their innovative designs and quality craftsmanship, Calbridge Homes has a strong reputation in the Calgary market.\n\n2. **Jayman Built** - With a focus on energy-efficient homes and sustainable building practices, Jayman Built is a popular choice among environmentally conscious buyers.\n\n3. **Trico Homes** - Trico Homes is recognized for its customer service and commitment to building homes that meet the needs of families.\n\n4. **Brookfield Residential** - This builder offers a range of home styles and has a good reputation for quality and community development.\n\n5. **Cardel Homes** - Cardel is known for their quality construction and customer satisfaction, with a variety of customizable options for buyers.\n\n6. **Homes by Avi** - With a focus on innovative designs and quality, Homes by Avi offers a wide selection of homes in various price ranges.\n\n7. **Pacesetter Homes** - They offer a variety of designs and styles while focusing on customer service and satisfaction.\n\nIt's always a good idea to check recent customer reviews, visit show homes, and talk to homeowners who have purchased from these builders to get a better sense of their work and service. Additionally, you may want to consider checking local home builder associations for more recommendations and to ensure that the builders are reputable.",
+      "timestamp": 1750135132.5533302,
+      "status": "success",
+      "category": "category_exploration",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 3,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "when looking for the best home builders in calgary, it's important to consider factors such as reput",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": " in. here are some well-regarded home builders in calgary:",
+            "position": 175
+          },
+          {
+            "keyword": "Calgary",
+            "context": "p, calbridge homes has a strong reputation in the calgary market.",
+            "position": 319
+          }
+        ],
+        "sentiment_score": 0.12048192771084339,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing",
+          "innovation"
+        ],
+        "word_count": 249,
+        "contains_brand": true,
+        "query_category": "category_exploration",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "chatgpt_0",
+      "stored_at": "2025-06-16T22:42:29.644071"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What should I look for when choosing a home builder?",
+      "response": "Choosing a home builder is a crucial decision that can significantly impact your home-building experience and the quality of your finished home. Here are several key factors to consider when selecting a builder:\n\n1. **Reputation and Experience**: Research the builder\u2019s reputation in the community. Look for reviews, testimonials, and ratings on platforms like Google, Yelp, or Better Business Bureau. Experience in the industry is also important, so consider how long they have been in business.\n\n2. **Portfolio of Past Work**: Review the builder's portfolio to see examples of their previous projects. This will give you an idea of their style, craftsmanship, and the types of homes they build.\n\n3. **Licensing and Insurance**: Ensure that the builder is properly licensed and insured. This protects you from liability in case of accidents and ensures that the builder meets local building codes and regulations.\n\n4. **Quality of Materials**: Ask about the materials and products the builder uses. High-quality materials can affect the durability and longevity of your home.\n\n5. **Communication and Customer Service**: Good communication is essential throughout the building process. Pay attention to how responsive and open the builder is during your initial meetings.\n\n6. **Customization Options**: If you want a customized home, inquire about the builder\u2019s flexibility in design and options available for personalization.\n\n7. **Timeline and Scheduling**: Understand the estimated timeline for your project. Delays can happen, but a good builder should provide a realistic schedule and keep you informed throughout the process.\n\n8. **Warranty and After-Sale Support**: Check what kind of warranty is offered on the home and how the builder handles post-construction support. A good warranty can offer peace of mind regarding future repairs.\n\n9. **Budget and Transparency**: Ensure that the builder provides a clear and detailed estimate of costs. Look for transparency in pricing, including potential additional costs that may arise during construction.\n\n10. **Visit Active Construction Sites**: If possible, visit current projects or homes under construction. This will give you insight into the builder's work ethic, cleanliness, and attention to detail.\n\n11. **References**: Request references from previous clients. Speaking directly to past customers can give you a candid perspective on their experiences with the builder.\n\n12. **Energy Efficiency and Sustainability**: If energy efficiency is important to you, ask the builder about their practices and options for sustainable building.\n\nBy carefully considering these factors and doing thorough research, you can find a home builder who aligns with your vision, budget, and expectations, leading to a successful home-building experience.",
+      "timestamp": 1750135145.356088,
+      "status": "success",
+      "category": "category_exploration",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing"
+        ],
+        "word_count": 411,
+        "contains_brand": false,
+        "query_category": "category_exploration",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "chatgpt_1",
+      "stored_at": "2025-06-16T22:42:29.644507"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What types of single-family residential homes are available?",
+      "response": "Single-family residential homes come in various styles and types, each offering unique features and benefits. Here are some common types:\n\n1. **Ranch**: Typically a single-story home with a long, low profile. They often have an open floor plan and are popular for their accessibility.\n\n2. **Colonial**: Characterized by symmetrical design, these homes often feature two or three stories with a central front door and evenly spaced windows. They may have a formal layout with separate living and dining areas.\n\n3. **Cape Cod**: A traditional American style known for its steep roof, dormer windows, and symmetrical facade. These homes are usually one or one-and-a-half stories.\n\n4. **Contemporary**: Featuring modern design elements, these homes often have open floor plans, large windows, and an emphasis on natural light. They can vary significantly in style.\n\n5. **Craftsman**: Known for their attention to detail and craftsmanship, these homes often feature exposed beams, built-in furniture, and a cozy, inviting aesthetic.\n\n6. **Victorian**: Recognized for their ornate details, such as decorative trim, vibrant colors, and asymmetrical shapes. They often have multiple stories and large porches.\n\n7. **Split-Level**: These homes have multiple levels, with short sets of stairs connecting different living areas. This design is often used to separate living spaces from sleeping areas.\n\n8. **Bungalow**: A smaller, one or one-and-a-half-story home that typically features a front porch and a compact, efficient layout.\n\n9. **Mediterranean**: Inspired by the architectural styles of countries along the Mediterranean Sea, these homes often have stucco exteriors, tile roofs, and arched doorways.\n\n10. **Farmhouse**: Often characterized by a large front porch and practical design, these homes can be traditional or modern and are typically associated with rural settings.\n\n11. **Tiny Homes**: These are smaller homes, usually under 400 square feet, designed for minimalism and efficiency. They are becoming increasingly popular for those seeking a simpler lifestyle.\n\nEach of these types can further vary in size, layout, and features, and may be customized to fit the preferences and needs of the homeowner.",
+      "timestamp": 1750135159.1780276,
+      "status": "success",
+      "category": "category_exploration",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 328,
+        "contains_brand": false,
+        "query_category": "category_exploration",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "chatgpt_2",
+      "stored_at": "2025-06-16T22:42:29.650317"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "How do home builders in Calgary differ from one another?",
+      "response": "Home builders in Calgary can differ from one another in several key ways:\n\n1. **Type of Homes**: Some builders specialize in single-family homes, while others might focus on townhouses, condos, or custom homes. The choice of style and type can significantly impact the buyer's options.\n\n2. **Price Range**: Builders can vary widely in terms of pricing, from affordable starter homes to luxury custom builds. Understanding a builder\u2019s target market can help potential buyers find a suitable match for their budget.\n\n3. **Construction Quality**: Different builders may have varying standards for materials and construction practices. Some might focus on high-end finishes and energy-efficient building techniques, while others may prioritize cost-effectiveness.\n\n4. **Design Options**: Builders often offer different levels of customization. Some may provide a range of floor plans and design packages, while others might offer fully custom designs tailored to individual needs.\n\n5. **Reputation and Experience**: Established builders with a long history may have a track record of quality and customer satisfaction, while newer builders might offer innovative designs or competitive pricing to attract buyers.\n\n6. **Warranty and Customer Service**: Different builders may offer varying warranties and levels of post-sale support. Understanding the warranty offered and the builder's responsiveness can be crucial for buyers.\n\n7. **Location Focus**: Some builders may specialize in specific neighborhoods or communities, which can influence the type of homes they build, as well as their pricing and market strategies.\n\n8. **Sustainability Practices**: Builders may differ in their commitment to sustainable building practices, including the use of eco-friendly materials and energy-efficient designs. Some may be more focused on green building certifications.\n\n9. **Marketing and Sales Approach**: The way builders market their homes can differ, with some using traditional methods while others might leverage modern technology, virtual tours, or social media to reach potential buyers.\n\n10. **Community Engagement**: Some builders may be more active in community engagement and development, contributing to local amenities or participating in community events, which can enhance their reputation and local relationships.\n\nWhen choosing a home builder in Calgary, it's essential for buyers to research and compare these factors to find the best fit for their needs and preferences.",
+      "timestamp": 1750135170.3650744,
+      "status": "success",
+      "category": "category_exploration",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 2,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "home builders in calgary can differ from one another in several key ways:",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "when choosing a home builder in calgary, it's essential for buyers to research and compar",
+            "position": 2322
+          }
+        ],
+        "sentiment_score": 0.05649717514124294,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing",
+          "innovation"
+        ],
+        "word_count": 354,
+        "contains_brand": true,
+        "query_category": "category_exploration",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "chatgpt_3",
+      "stored_at": "2025-06-16T22:42:29.652348"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What are the latest trends in single-family residential construction?",
+      "response": "As of 2023, several trends in single-family residential construction are shaping the industry. Here are some of the most notable trends:\n\n1. **Sustainability and Energy Efficiency**: There is a growing emphasis on building homes that are environmentally friendly. This includes the use of sustainable materials, energy-efficient appliances, solar panels, and high-performance insulation. Builders are also focusing on designs that reduce energy consumption and water usage.\n\n2. **Smart Home Technology**: Incorporating smart home features has become increasingly popular. Homebuyers are looking for homes equipped with smart thermostats, security systems, lighting, and appliances that can be controlled remotely via smartphones.\n\n3. **Open Floor Plans**: The demand for open floor plans continues, with homeowners favoring layouts that promote spaciousness and connectivity between living spaces. This trend is often complemented by large kitchen islands and multifunctional spaces.\n\n4. **Home Offices**: The rise in remote work has led to a greater demand for dedicated home office spaces. Builders are designing homes with flexible spaces that can serve as offices, study areas, or even classrooms.\n\n5. **Outdoor Living Spaces**: There is a significant trend towards creating outdoor living areas, such as patios, decks, and outdoor kitchens. Homeowners are looking for ways to extend their living space outdoors and enhance their connection to nature.\n\n6. **Aging in Place**: With an aging population, there is a growing interest in homes that accommodate older adults. Features such as single-story layouts, wider doorways, and accessible bathrooms are becoming more common.\n\n7. **Minimalist Design**: Many homebuyers are gravitating towards minimalist designs that emphasize simplicity and functionality. This often includes clean lines, neutral color palettes, and a focus on decluttered spaces.\n\n8. **Quality Over Quantity**: There is a shift towards building smaller, high-quality homes that prioritize craftsmanship and materials over sheer size. Buyers are increasingly valuing well-designed, functional spaces over larger square footage.\n\n9. **Community and Amenities**: Many buyers are looking for homes in communities that offer amenities such as parks, walking trails, and communal spaces. There is a trend towards developing neighborhoods that foster a sense of community.\n\n10. **Resilient Construction**: In response to climate change and natural disasters, there is an increased focus on resilient building practices. This includes using materials and designs that can withstand extreme weather events.\n\nThese trends reflect changing consumer preferences and the evolving landscape of residential construction, driven by technology, sustainability, and lifestyle shifts.",
+      "timestamp": 1750135181.447302,
+      "status": "success",
+      "category": "category_exploration",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "innovation"
+        ],
+        "word_count": 389,
+        "contains_brand": false,
+        "query_category": "category_exploration",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "chatgpt_4",
+      "stored_at": "2025-06-16T22:42:29.658512"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "Compare home builders in Calgary.",
+      "response": "When comparing home builders in Calgary, it's important to consider several factors, including reputation, quality of construction, customer service, warranty offerings, pricing, and the types of homes they specialize in. Here are some notable home builders in the Calgary area:\n\n1. **Brookfield Residential**:\n   - **Reputation**: Known for quality and innovation, Brookfield has a strong presence in Calgary.\n   - **Offerings**: They build a range of homes from single-family to multi-family units and have various communities.\n   - **Customer Service**: Generally well-reviewed for customer support and after-sales service.\n\n2. **Jayman Built**:\n   - **Reputation**: A well-established builder in Calgary with a focus on energy efficiency and sustainable building practices.\n   - **Offerings**: Offers a variety of designs, including single-family homes and townhomes.\n   - **Warranty**: Provides a comprehensive warranty program.\n\n3. **Calbridge Homes**:\n   - **Reputation**: Known for high-quality craftsmanship and attention to detail.\n   - **Offerings**: Specializes in luxury homes and custom builds.\n   - **Customer Experience**: Often praised for their personalized customer service and design consultation.\n\n4. **Trico Homes**:\n   - **Reputation**: Recognized for their commitment to quality and customer satisfaction.\n   - **Offerings**: Offers a diverse range of home styles, including starter homes and move-up homes.\n   - **Community Engagement**: Active in community initiatives, which enhances their reputation locally.\n\n5. **Sunterra Homes**:\n   - **Reputation**: Focuses on building sustainable and energy-efficient homes.\n   - **Offerings**: Primarily custom homes and semi-custom homes.\n   - **Design Focus**: Known for innovative designs and modern aesthetics.\n\n6. **Landmark Homes**:\n   - **Reputation**: Known for quality and a wide range of customizable options.\n   - **Offerings**: Provides single-family homes and multi-family options.\n   - **Customer Service**: Generally receives positive feedback for their customer care during the building process.\n\n### Factors to Consider:\n- **Budget**: Determine your budget and see which builders offer homes within that range.\n- **Style and Customization**: Consider what styles of homes you prefer and how much customization you want.\n- **Community Locations**: Look at the neighborhoods where the builders have projects and consider proximity to schools, amenities, and your workplace.\n- **Reviews and Ratings**: Check online reviews and ratings on platforms like Google, Yelp, or the Better Business Bureau to gauge customer satisfaction.\n- **Warranty and Service**: Understand the warranty offered by each builder, as this can significantly affect long-term satisfaction with your home.\n\n### Conclusion:\nResearching and comparing builders based on these aspects will help you make an informed decision. It\u2019s also advisable to visit show homes and talk to past customers where possible to get a better feel for each builder's quality and service.",
+      "timestamp": 1750135199.8721175,
+      "status": "success",
+      "category": "comparison_research",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 4,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "when comparing home builders in calgary, it's important to consider several factors, incl",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "ze in. here are some notable home builders in the calgary area:",
+            "position": 215
+          },
+          {
+            "keyword": "Calgary",
+            "context": "d innovation, brookfield has a strong presence in calgary.",
+            "position": 352
+          },
+          {
+            "keyword": "Calgary",
+            "context": "  - **reputation**: a well-established builder in calgary with a focus on energy efficiency and sustainable",
+            "position": 650
+          }
+        ],
+        "sentiment_score": 0.024390243902439025,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "innovation"
+        ],
+        "word_count": 410,
+        "contains_brand": true,
+        "query_category": "comparison_research",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "chatgpt_5",
+      "stored_at": "2025-06-16T22:42:29.659603"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What are the top home building companies in Calgary?",
+      "response": "As of my last update, here are some of the top home building companies in Calgary known for their quality construction and customer service:\n\n1. **Brookfield Residential** - A well-established name in home building, Brookfield offers a range of homes from single-family to multi-family units and focuses on sustainable building practices.\n\n2. **Jayman Built** - Known for innovative designs and energy-efficient homes, Jayman Built is a prominent builder in Calgary with a variety of options for homebuyers.\n\n3. **Calbridge Homes** - This company has a reputation for building high-quality homes with a focus on craftsmanship and customer satisfaction. They offer a range of customizable options.\n\n4. **Stepper Homes** - With a commitment to quality and customer service, Stepper Homes offers various styles of homes, including single-family and multi-family options.\n\n5. **Trico Homes** - Recognized for their community involvement and sustainability efforts, Trico Homes builds a range of homes and is known for their customer-centric approach.\n\n6. **Cardel Homes** - Cardel has a long history in Calgary and is known for its diverse range of home styles and commitment to quality construction.\n\n7. **Sunset Homes** - Specializing in custom homes, Sunset Homes focuses on personalized service and high-quality craftsmanship.\n\n8. **Pacesetter Homes** - Known for their innovative designs and practicality, Pacesetter Homes offers a variety of options for first-time buyers and families.\n\nWhen considering a home builder, it's essential to research their reputation, customer reviews, and specific offerings to find one that fits your needs and preferences. Additionally, checking for awards and recognitions in the local home building industry can provide further insights into their quality and service.",
+      "timestamp": 1750135211.241978,
+      "status": "success",
+      "category": "comparison_research",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 3,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "re are some of the top home building companies in calgary known for their quality construction and customer",
+            "position": 24
+          },
+          {
+            "keyword": "Calgary",
+            "context": "ent homes, jayman built is a prominent builder in calgary with a variety of options for homebuyers.",
+            "position": 408
+          },
+          {
+            "keyword": "Calgary",
+            "context": ". **cardel homes** - cardel has a long history in calgary and is known for its diverse range of home styles",
+            "position": 1049
+          }
+        ],
+        "sentiment_score": 0.03745318352059925,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "innovation"
+        ],
+        "word_count": 267,
+        "contains_brand": true,
+        "query_category": "comparison_research",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "chatgpt_6",
+      "stored_at": "2025-06-16T22:42:29.660866"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "How do prices compare among different home builders in Calgary?",
+      "response": "When comparing prices among different home builders in Calgary, it's important to consider several factors that can influence the overall cost of a home. Here are some key points to keep in mind:\n\n1. **Builder Reputation and Experience**: Established builders with a good reputation may charge higher prices due to their experience and quality of work.\n\n2. **Home Type and Size**: Prices will vary based on the type of home (single-family, townhome, condo) and its size (square footage, number of bedrooms/bathrooms). Custom-built homes usually come at a premium compared to standard models.\n\n3. **Location**: The neighborhood can significantly impact pricing. Homes in desirable areas or with better amenities are typically more expensive.\n\n4. **Included Features**: Builders often have different packages that include various features and finishes. A lower upfront price might mean fewer included features, while a higher price may cover upgrades and customizations.\n\n5. **Market Conditions**: The real estate market in Calgary can fluctuate, affecting home prices. Economic factors, interest rates, and supply and demand all play a role.\n\n6. **Incentives and Promotions**: Some builders may offer incentives such as discounts, upgrades, or financing options, which can affect the overall cost.\n\n7. **Comparative Research**: It's beneficial to compare quotes from multiple builders and visit show homes to get a sense of pricing and quality. Online resources and local real estate listings can also provide insights into pricing trends.\n\nTo get the most accurate comparison, it's advisable to compile quotes from various builders, analyze what is included in each quote, and consider your specific needs and preferences. Additionally, consulting with a local real estate agent can provide further guidance tailored to your situation.",
+      "timestamp": 1750135219.0437198,
+      "status": "success",
+      "category": "comparison_research",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 2,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "comparing prices among different home builders in calgary, it's important to consider several factors that ",
+            "position": 5
+          },
+          {
+            "keyword": "Calgary",
+            "context": " **market conditions**: the real estate market in calgary can fluctuate, affecting home prices. economic fa",
+            "position": 972
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "pricing",
+          "competition"
+        ],
+        "word_count": 273,
+        "contains_brand": true,
+        "query_category": "comparison_research",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "chatgpt_7",
+      "stored_at": "2025-06-16T22:42:29.662336"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What services do Calgary home builders typically offer?",
+      "response": "Calgary home builders typically offer a range of services to accommodate various aspects of home construction and renovation. Here are some common services you can expect:\n\n1. **Custom Home Design**: Many builders provide design services to create tailored home plans that fit the client's needs and preferences.\n\n2. **New Home Construction**: This includes the entire process of building a new home from the ground up, including site preparation, foundation work, framing, roofing, and exterior finishing.\n\n3. **Renovations and Additions**: Builders often offer renovation services for existing homes, which may include kitchen and bathroom remodels, basement finishing, or adding new rooms.\n\n4. **Project Management**: Professional builders typically manage the entire construction process, coordinating with subcontractors, suppliers, and ensuring that the project stays on schedule and within budget.\n\n5. **Energy Efficiency Consulting**: Many builders are knowledgeable about energy-efficient building practices and can provide options for sustainable materials and technologies.\n\n6. **Interior Design Services**: Some builders may offer interior design assistance to help homeowners select finishes, fixtures, and layouts that suit their tastes.\n\n7. **Land Development**: Builders may also be involved in developing land for residential purposes, which includes zoning, permits, and infrastructure.\n\n8. **Warranty Services**: Most reputable builders provide warranties on their workmanship and materials, giving homeowners peace of mind about their investment.\n\n9. **Financing Assistance**: Some builders offer guidance on financing options and may have partnerships with lenders to help clients secure loans.\n\n10. **Post-Construction Support**: This can include maintenance services or assistance with any issues that arise after the home is completed.\n\nWhen choosing a home builder in Calgary, it's advisable to research and consult with multiple builders to understand the specific services they offer and how they align with your project needs.",
+      "timestamp": 1750135231.4218786,
+      "status": "success",
+      "category": "comparison_research",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 2,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "calgary home builders typically offer a range of services",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "when choosing a home builder in calgary, it's advisable to research and consult with mult",
+            "position": 1861
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "customer_service"
+        ],
+        "word_count": 283,
+        "contains_brand": true,
+        "query_category": "comparison_research",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "chatgpt_8",
+      "stored_at": "2025-06-16T22:42:29.666826"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "Which home builders have the best customer satisfaction ratings?",
+      "response": "Customer satisfaction ratings for home builders can vary based on location, specific projects, and the criteria used for measurement. However, some builders are often recognized for their high levels of customer satisfaction across various surveys and ratings. Here are a few builders that frequently receive positive feedback:\n\n1. **David Weekley Homes**: Known for its customer service and quality construction, David Weekley Homes often ranks highly in customer satisfaction surveys.\n\n2. **Taylor Morrison**: This builder is frequently noted for its attention to detail and customer care, earning high ratings from homeowners.\n\n3. **Pulte Homes**: Pulte has a reputation for building quality homes and has received accolades for its customer satisfaction, especially in the first year of homeownership.\n\n4. **Lennar**: Often recognized for its innovative designs and quality, Lennar also places a strong emphasis on customer service.\n\n5. **Meritage Homes**: Known for energy-efficient homes, Meritage has received positive feedback for its commitment to customer satisfaction.\n\n6. **Highland Homes**: This regional builder has garnered positive reviews for its customer service and quality of construction.\n\nTo get the most accurate and up-to-date information, it\u2019s a good idea to check recent customer reviews on platforms like the Better Business Bureau, Google Reviews, and industry-specific sites such as Homebuilder Ratings or JD Power\u2019s Home Builder Study. Additionally, local reviews and word-of-mouth can provide valuable insights into builders in your area.",
+      "timestamp": 1750135242.4723597,
+      "status": "success",
+      "category": "comparison_research",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "innovation"
+        ],
+        "word_count": 224,
+        "contains_brand": false,
+        "query_category": "comparison_research",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "chatgpt_9",
+      "stored_at": "2025-06-16T22:42:29.669378"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "I need a custom home built, what are my options in Calgary?",
+      "response": "Building a custom home in Calgary offers a variety of options, depending on your preferences, budget, and specific needs. Here are some steps and options to consider:\n\n1. **Choose a Location**: Start by selecting a neighborhood or area in Calgary that suits your lifestyle. Consider factors such as proximity to work, schools, amenities, and recreational facilities.\n\n2. **Set a Budget**: Determine your budget for the entire project, including land purchase, construction costs, permits, and interior finishes. \n\n3. **Find a Builder**: Research local custom home builders in Calgary. Look for companies with a good reputation, positive reviews, and a portfolio of completed projects. Some well-known builders in Calgary include:\n\n   - **Calbridge Homes**\n   - **Trico Homes**\n   - **Jayman Built**\n   - **Homes by Avi**\n   - **Bungalow Group**\n\n4. **Design Your Home**: Work with your chosen builder or an architect to design your home. Discuss your requirements, preferences, and any specific features you want. You can choose from existing plans or create a completely custom design.\n\n5. **Select Materials and Finishes**: Once the design is finalized, you\u2019ll select materials, finishes, and fixtures. This includes everything from roofing and siding to cabinetry and flooring.\n\n6. **Obtain Necessary Permits**: Your builder will handle most of the permitting process, but it's good to be aware of the necessary permits required for construction in Calgary. This typically includes building permits, zoning approvals, and inspections.\n\n7. **Construction Process**: The builder will manage the construction process, keeping you informed of progress. This stage may involve site preparation, foundation work, framing, and finishing touches.\n\n8. **Inspections and Final Touches**: Throughout the construction, there will be inspections to ensure everything meets local building codes. Once completed, you'll have a final walkthrough to ensure everything meets your expectations.\n\n9. **Consider Sustainability**: If you're environmentally conscious, consider incorporating sustainable building practices and materials. Many builders offer options for energy-efficient designs and green technologies.\n\n10. **Warranty and Maintenance**: After moving in, be aware of the warranties provided by your builder for various aspects of your home. Regular maintenance is key to keeping your home in good condition.\n\nBy following these steps and exploring your options, you can successfully build a custom home in Calgary that meets your needs and reflects your personal style.",
+      "timestamp": 1750135254.1045568,
+      "status": "success",
+      "category": "problem_solving",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 6,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "building a custom home in calgary offers a variety of options, depending on your pr",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "n**: start by selecting a neighborhood or area in calgary that suits your lifestyle. consider factors such ",
+            "position": 189
+          },
+          {
+            "keyword": "Calgary",
+            "context": "builder**: research local custom home builders in calgary. look for companies with a good reputation, posit",
+            "position": 526
+          },
+          {
+            "keyword": "Calgary",
+            "context": "f completed projects. some well-known builders in calgary include:",
+            "position": 663
+          },
+          {
+            "keyword": "Calgary",
+            "context": "he necessary permits required for construction in calgary. this typically includes building permits, zoning",
+            "position": 1402
+          },
+          {
+            "keyword": "Calgary",
+            "context": "ions, you can successfully build a custom home in calgary that meets your needs and reflects your personal ",
+            "position": 2452
+          }
+        ],
+        "sentiment_score": 0.027173913043478264,
+        "sentiment_label": "neutral",
+        "themes": [
+          "pricing"
+        ],
+        "word_count": 368,
+        "contains_brand": true,
+        "query_category": "problem_solving",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "chatgpt_10",
+      "stored_at": "2025-06-16T22:42:29.679149"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "How do I choose between different home builders?",
+      "response": "Choosing between different home builders can be a significant decision, and it's important to consider several factors to ensure you select the right one for your project. Here are some steps to guide you:\n\n1. **Research and Recommendations**:\n   - Start by asking friends, family, or colleagues for recommendations.\n   - Look for online reviews and testimonials on platforms like Google, Yelp, or specialized home building sites.\n   - Check the builders\u2019 websites for portfolios of previous work and client testimonials.\n\n2. **Experience and Reputation**:\n   - Investigate how long the builder has been in business and their reputation in the community.\n   - Look for builders who specialize in the type of home you want (e.g., custom homes, energy-efficient homes).\n\n3. **Licensing and Insurance**:\n   - Ensure that the builder is properly licensed and insured, which protects you in case of accidents or issues during construction.\n\n4. **Portfolio and Style**:\n   - Review the builder\u2019s past projects to see if their style aligns with your vision for your home.\n   - Ask for references and contact previous clients to learn about their experiences.\n\n5. **Quality of Materials**:\n   - Inquire about the materials and suppliers the builder uses. High-quality materials can significantly affect the longevity and value of your home.\n\n6. **Communication and Compatibility**:\n   - Pay attention to how the builder communicates with you. Clear and open communication is crucial throughout the building process.\n   - Assess whether you feel comfortable working with them and if they understand your vision.\n\n7. **Timeline and Scheduling**:\n   - Ask about the estimated timeline for your project and how they handle scheduling. A reliable builder should be able to provide a clear timeline and update you regularly on progress.\n\n8. **Budget and Transparency**:\n   - Obtain detailed estimates from multiple builders and compare them. Ensure you understand what is included in the price and clarify any potential additional costs.\n   - Be cautious of significantly low bids; they might indicate lower quality or hidden costs.\n\n9. **Warranty and Aftercare**:\n   - Inquire about the warranty offered on the home and the builder\u2019s policies for addressing issues after the home is completed.\n   - A good builder should stand behind their work and offer support after the sale.\n\n10. **Visit Active Sites**:\n    - If possible, visit homes currently under construction by the builders you\u2019re considering. This will give you insight into their work practices, cleanliness, and quality.\n\nBy considering these factors and doing thorough research, you can make a more informed decision about which home builder is best suited for your needs.",
+      "timestamp": 1750135271.1285021,
+      "status": "success",
+      "category": "problem_solving",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing"
+        ],
+        "word_count": 414,
+        "contains_brand": false,
+        "query_category": "problem_solving",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "chatgpt_11",
+      "stored_at": "2025-06-16T22:42:29.681233"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What should I consider when designing a single-family home?",
+      "response": "Designing a single-family home is an exciting endeavor that involves several important considerations. Here\u2019s a comprehensive list of factors to keep in mind:\n\n### 1. **Site Selection and Orientation**\n   - **Location**: Evaluate the neighborhood, proximity to schools, parks, shopping, and workplaces.\n   - **Topography**: Consider the land\u2019s slope, drainage, and natural features.\n   - **Sunlight and Wind**: Orient the home to maximize natural light and minimize harsh winds, considering window placement and outdoor spaces.\n\n### 2. **Zoning and Building Codes**\n   - **Zoning Regulations**: Research local zoning laws that dictate land use, building height, setbacks, and density.\n   - **Building Codes**: Ensure compliance with safety standards, energy efficiency, and accessibility requirements.\n\n### 3. **Budget**\n   - **Cost Estimates**: Create a realistic budget that includes land, construction, permits, and interior finishes.\n   - **Financing**: Explore mortgage options and potential government incentives for energy-efficient designs.\n\n### 4. **Lifestyle and Family Needs**\n   - **Layout**: Design spaces that reflect your lifestyle. Consider open floor plans versus more traditional layouts.\n   - **Room Functionality**: Think about the number of bedrooms, bathrooms, and specialized spaces (home office, gym, etc.) based on family size and needs.\n   - **Future Growth**: Plan for potential changes in family size or needs over time.\n\n### 5. **Sustainability and Energy Efficiency**\n   - **Materials**: Choose sustainable and durable building materials.\n   - **Energy Efficiency**: Incorporate energy-efficient appliances, heating, and cooling systems. Consider solar panels or other renewable energy sources.\n   - **Water Conservation**: Implement systems for rainwater harvesting and efficient plumbing fixtures.\n\n### 6. **Style and Aesthetics**\n   - **Architectural Style**: Choose a design that reflects your personal taste while considering neighborhood aesthetics.\n   - **Interior Design**: Plan for finishes, colors, and materials that create a cohesive look throughout the home.\n\n### 7. **Functionality and Flow**\n   - **Traffic Patterns**: Consider how people will move through the space. Ensure there\u2019s logical flow between rooms.\n   - **Storage**: Incorporate adequate storage solutions to keep the home organized.\n\n### 8. **Outdoor Living**\n   - **Landscaping**: Plan for gardens, patios, or decks that complement the home and provide outdoor living space.\n   - **Privacy and Views**: Design outdoor areas with consideration for privacy from neighbors and scenic views.\n\n### 9. **Accessibility and Universal Design**\n   - **Accessibility**: Consider designs that accommodate all ages and abilities, like wider doorways, single-level living, and no-step entries.\n\n### 10. **Consult Professionals**\n   - **Architects and Designers**: Work with professionals who can help translate your vision into a practical design while ensuring compliance with regulations.\n   - **Contractors**: Choose reputable builders with experience in residential construction.\n\n### 11. **Future Resale Value**\n   - **Market Trends**: Keep in mind what features are desirable in your area that could enhance resale value.\n   - **Timeless Design**: Avoid overly trendy features that may age poorly.\n\nBy carefully considering these factors, you can create a single-family home that meets your needs, is functional, and blends harmoniously with its surroundings.",
+      "timestamp": 1750135286.7872357,
+      "status": "success",
+      "category": "problem_solving",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing",
+          "competition"
+        ],
+        "word_count": 464,
+        "contains_brand": false,
+        "query_category": "problem_solving",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "chatgpt_12",
+      "stored_at": "2025-06-16T22:42:29.683598"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What is the average timeline for building a single-family home in Calgary?",
+      "response": "The average timeline for building a single-family home in Calgary typically ranges from 6 to 12 months. However, several factors can influence this timeline, including:\n\n1. **Planning and Permitting**: This phase, which includes obtaining necessary permits and approvals, can take several weeks to a few months, depending on the complexity of the project and local regulations.\n\n2. **Design Phase**: Working with architects and designers to finalize plans can add additional time, often a few weeks to months.\n\n3. **Construction**: Once construction begins, the time frame can vary based on factors such as weather, the complexity of the design, availability of materials, and subcontractor schedules. Generally, construction itself can take anywhere from 4 to 8 months.\n\n4. **Inspections**: Throughout the construction process, various inspections are required, which can cause delays if issues arise.\n\n5. **Final Touches**: After the main construction is completed, additional time may be needed for landscaping, interior finishes, and final inspections.\n\nIt's important for prospective homeowners to work closely with builders and contractors to establish a realistic timeline based on their specific situation and to account for any potential delays.",
+      "timestamp": 1750135298.027957,
+      "status": "success",
+      "category": "problem_solving",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 1,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "age timeline for building a single-family home in calgary typically ranges from 6 to 12 months. however, se",
+            "position": 8
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 182,
+        "contains_brand": true,
+        "query_category": "problem_solving",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "chatgpt_13",
+      "stored_at": "2025-06-16T22:42:29.691397"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "How can I find affordable home builders in Calgary?",
+      "response": "Finding affordable home builders in Calgary involves several steps. Here\u2019s a guide to help you in your search:\n\n1. **Research Online**: Start by searching online for home builders in Calgary. Websites like HomeStars, Yelp, and Google Reviews can provide reviews and ratings of builders. Look for those who specialize in affordable housing.\n\n2. **Local Directories**: Check local business directories and websites, such as the Calgary Home Builders Association (CHBA). They often have a list of members and can guide you toward builders who focus on budget-friendly options.\n\n3. **Get Recommendations**: Ask friends, family, or colleagues who have built homes or know builders in the area. Personal referrals can lead you to reliable and affordable options.\n\n4. **Compare Quotes**: Reach out to multiple builders to get quotes. Discuss your budget and desired features. This will help you understand the cost range and find builders who can work within your budget.\n\n5. **Attend Home Shows**: Look for local home shows or expos where builders showcase their work. This can give you a chance to meet builders in person and ask about their pricing and services.\n\n6. **Check for Promotions**: Some builders may have promotional offers or discounts. Keep an eye out for these, especially during off-peak seasons.\n\n7. **Consider Custom vs. Production Builders**: Production builders often offer more affordable options as they build multiple homes with similar designs. Custom builders may be more expensive, but some may offer competitive rates for specific projects.\n\n8. **Review Portfolios**: Look at the portfolios of potential builders to see if their previous work aligns with your vision and budget. This can also give you an idea of their quality and style.\n\n9. **Inquire about Financing Options**: Some builders may have partnerships with lenders or offer financing options that can make building a home more affordable.\n\n10. **Check Licenses and Insurance**: Ensure any builder you consider is licensed and has the necessary insurance. This protects you in case of any issues during the building process.\n\nBy following these steps, you should be able to find affordable home builders in Calgary that meet your needs and budget.",
+      "timestamp": 1750135306.992941,
+      "status": "success",
+      "category": "problem_solving",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 4,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "finding affordable home builders in calgary involves several steps. here\u2019s a guide to help yo",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "*: start by searching online for home builders in calgary. websites like homestars, yelp, and google review",
+            "position": 133
+          },
+          {
+            "keyword": "Calgary",
+            "context": "al business directories and websites, such as the calgary home builders association (chba). they often have",
+            "position": 376
+          },
+          {
+            "keyword": "Calgary",
+            "context": "hould be able to find affordable home builders in calgary that meet your needs and budget.",
+            "position": 2141
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing"
+        ],
+        "word_count": 349,
+        "contains_brand": true,
+        "query_category": "problem_solving",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "chatgpt_14",
+      "stored_at": "2025-06-16T22:42:29.697655"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What do you know about Prominent Homes?",
+      "response": "Prominent Homes is a residential home builder based in Canada, particularly known for its operations in the Calgary area and surrounding regions. The company focuses on creating custom homes and offers a variety of architectural styles and designs to cater to different tastes and preferences. Prominent Homes emphasizes quality construction, innovative design, and customer satisfaction, often working closely with clients throughout the building process to ensure their vision is realized.\n\nIn addition to custom home building, Prominent Homes may also engage in the development of communities and offer various services related to home design and renovations. They are known for using modern materials and techniques to enhance energy efficiency and sustainability in their homes.\n\nFor the latest details about their projects, offerings, or company news, it's best to check their official website or recent press releases, as specific information may change over time.",
+      "timestamp": 1750135314.1350024,
+      "status": "success",
+      "category": "direct_brand",
+      "brand_mentioned_in_query": true,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 4,
+        "mentions": [
+          {
+            "keyword": "Prominent Homes",
+            "context": "prominent homes is a residential home builder based in canada, pa",
+            "position": 0
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "gns to cater to different tastes and preferences. prominent homes emphasizes quality construction, innovative desig",
+            "position": 244
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "in addition to custom home building, prominent homes may also engage in the development of communities",
+            "position": 493
+          },
+          {
+            "keyword": "Calgary",
+            "context": "ada, particularly known for its operations in the calgary area and surrounding regions. the company focuses",
+            "position": 58
+          }
+        ],
+        "sentiment_score": 0.13986013986013984,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "innovation"
+        ],
+        "word_count": 143,
+        "contains_brand": true,
+        "query_category": "direct_brand",
+        "brand_mentioned_in_query": true,
+        "organic_mention": false
+      },
+      "id": "chatgpt_15",
+      "stored_at": "2025-06-16T22:42:29.699614"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "Tell me about Prominent Homes reviews.",
+      "response": "Prominent Homes is a home builder based in Canada, known for constructing custom homes in various styles and designs. Reviews of Prominent Homes can vary based on individual experiences, but here are some common themes often mentioned:\n\n1. **Quality of Construction**: Many customers appreciate the quality of materials and craftsmanship in the homes built by Prominent Homes. Positive reviews often highlight the durability and aesthetic appeal of their finished products.\n\n2. **Customer Service**: Customer service experiences can be mixed. Some clients report positive interactions with the team, noting responsiveness and helpfulness throughout the building process, while others may mention challenges in communication or delays.\n\n3. **Design Flexibility**: Prominent Homes is often praised for its ability to accommodate custom designs and preferences, allowing clients to personalize their homes according to their needs and tastes.\n\n4. **Timeliness**: Some reviews point out concerns about project timelines and delays in construction. While some clients report that their homes were completed on schedule, others have experienced setbacks.\n\n5. **Value for Money**: Buyers often discuss whether they feel they received good value for their investment. While some believe that the quality justifies the price, others feel that costs could be better managed.\n\nTo get a more comprehensive view, it's a good idea to check various review platforms, such as Google Reviews, Yelp, or home building forums, where you can find a range of customer experiences and feedback.",
+      "timestamp": 1750135327.452563,
+      "status": "success",
+      "category": "direct_brand",
+      "brand_mentioned_in_query": true,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 4,
+        "mentions": [
+          {
+            "keyword": "Prominent Homes",
+            "context": "prominent homes is a home builder based in canada, known for cons",
+            "position": 0
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "m homes in various styles and designs. reviews of prominent homes can vary based on individual experiences, but her",
+            "position": 79
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "materials and craftsmanship in the homes built by prominent homes. positive reviews often highlight the durability ",
+            "position": 310
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "3. **design flexibility**: prominent homes is often praised for its ability to accommodate c",
+            "position": 736
+          }
+        ],
+        "sentiment_score": 0.04329004329004329,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing"
+        ],
+        "word_count": 231,
+        "contains_brand": true,
+        "query_category": "direct_brand",
+        "brand_mentioned_in_query": true,
+        "organic_mention": false
+      },
+      "id": "chatgpt_16",
+      "stored_at": "2025-06-16T22:42:29.702082"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What is the reputation of Prominent Homes in Calgary?",
+      "response": "As of my last update in October 2023, Prominent Homes in Calgary has generally garnered a mixed reputation. Many customers appreciate their innovative designs and quality construction, noting that their homes often feature modern amenities and sustainable building practices. However, some reviews point to issues with customer service and communication during the building process. \n\nIt's important to check recent reviews on platforms like Google, Yelp, or the Better Business Bureau for the most current feedback from homeowners. Additionally, speaking with past clients or visiting completed projects can provide valuable insight into their reputation and the quality of their work.",
+      "timestamp": 1750135333.882926,
+      "status": "success",
+      "category": "direct_brand",
+      "brand_mentioned_in_query": true,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 2,
+        "mentions": [
+          {
+            "keyword": "Prominent Homes",
+            "context": "as of my last update in october 2023, prominent homes in calgary has generally garnered a mixed reputat",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "y last update in october 2023, prominent homes in calgary has generally garnered a mixed reputation. many c",
+            "position": 7
+          }
+        ],
+        "sentiment_score": 0.10101010101010101,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "innovation"
+        ],
+        "word_count": 99,
+        "contains_brand": true,
+        "query_category": "direct_brand",
+        "brand_mentioned_in_query": true,
+        "organic_mention": false
+      },
+      "id": "chatgpt_17",
+      "stored_at": "2025-06-16T22:42:29.747539"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What types of homes does Prominent Homes specialize in?",
+      "response": "Prominent Homes specializes in a variety of residential properties, including custom-built homes, luxury homes, and modern designs. They often focus on creating tailored living spaces that meet the unique needs and preferences of their clients. Their portfolio may include single-family homes, townhomes, and potentially other types of residential developments. If you're interested in a specific style or type of home, it might be helpful to check their website or contact them directly for more detailed information about their offerings.",
+      "timestamp": 1750135338.5913856,
+      "status": "success",
+      "category": "direct_brand",
+      "brand_mentioned_in_query": true,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 1,
+        "mentions": [
+          {
+            "keyword": "Prominent Homes",
+            "context": "prominent homes specializes in a variety of residential propertie",
+            "position": 0
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "customer_service"
+        ],
+        "word_count": 79,
+        "contains_brand": true,
+        "query_category": "direct_brand",
+        "brand_mentioned_in_query": true,
+        "organic_mention": false
+      },
+      "id": "chatgpt_18",
+      "stored_at": "2025-06-16T22:42:29.750386"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "Are there any recent projects by Prominent Homes I can see?",
+      "response": "To find recent projects by Prominent Homes, I recommend visiting their official website or social media pages, where they often showcase their latest work. You can also check platforms like Houzz or Instagram, where many home builders share images and details about their recent projects. If you're looking for something specific, you might also consider contacting them directly for information on their latest developments and completed homes.",
+      "timestamp": 1750135342.455894,
+      "status": "success",
+      "category": "direct_brand",
+      "brand_mentioned_in_query": true,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 1,
+        "mentions": [
+          {
+            "keyword": "Prominent Homes",
+            "context": "to find recent projects by prominent homes, i recommend visiting their official website or s",
+            "position": 0
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 67,
+        "contains_brand": true,
+        "query_category": "direct_brand",
+        "brand_mentioned_in_query": true,
+        "organic_mention": false
+      },
+      "id": "chatgpt_19",
+      "stored_at": "2025-06-16T22:42:29.759838"
+    },
+    {
+      "platform": "gemini",
+      "query": "Who are the best home builders in Calgary?",
+      "response": "There's no single \"best\" home builder in Calgary, as the ideal choice depends heavily on individual preferences, budget, and desired style of home.  However, several builders consistently receive high praise and recognition:\n\n**High-End/Luxury Builders:**\n\n* **Jayman Built:** Known for their upscale finishes and attention to detail.  They often cater to a more discerning clientele.\n* **Shane Homes:** A large, established builder with a reputation for quality and a wide range of floor plans. They offer various price points, but their higher-end options are very competitive.\n* **Homes by Dream:** Another large builder offering a variety of styles and price points, with a solid reputation for quality and customer service.\n\n**Mid-Range Builders:**\n\n* **Morrison Homes:**  Often praised for their value and customer service, offering a good selection of designs in various communities.\n* **Pacesetter Homes:**  Known for their affordability and efficiency, making them a popular choice for first-time homebuyers. However, always check reviews on specific projects and experiences.\n\n**Smaller/Boutique Builders:**\n\nMany smaller builders focus on unique designs and personalized experiences.  Researching these requires more legwork but can yield excellent results if you find one that aligns with your vision.\n\n\n**Important Considerations When Choosing:**\n\n* **Reviews:** Check online reviews on sites like HomeStars, Google Reviews, and BBB (Better Business Bureau). Look for consistent positive feedback and address any negative comments.\n* **Warranty:** Understand the warranty offered by the builder and the specifics of their customer service process.\n* **Show Homes:** Visit show homes to get a feel for the quality of construction, finishes, and overall design.\n* **Customer Service:**  Talk to current or past clients to gauge their experience with the builder's communication, responsiveness, and problem-solving skills.\n* **Price:** Get multiple quotes and compare features included in the price. Don't just focus on the base price; factor in upgrades and potential add-ons.\n\n\nUltimately, the \"best\" builder for you will depend on your individual needs and priorities. Thorough research, including talking to several builders and checking reviews, is essential for making an informed decision.\n",
+      "timestamp": 1750135136.7970068,
+      "status": "success",
+      "category": "category_exploration",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 1,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "there's no single \"best\" home builder in calgary, as the ideal choice depends heavily on individua",
+            "position": 0
+          }
+        ],
+        "sentiment_score": 0.060422960725075525,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing"
+        ],
+        "word_count": 331,
+        "contains_brand": true,
+        "query_category": "category_exploration",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "gemini_20",
+      "stored_at": "2025-06-16T22:42:29.763125"
+    },
+    {
+      "platform": "gemini",
+      "query": "What should I look for when choosing a home builder?",
+      "response": "Choosing a home builder is a significant decision, so thorough research is crucial.  Here's a breakdown of what to look for:\n\n**I. Reputation & Experience:**\n\n* **Years in business:**  A longer track record suggests more experience and stability.  Look for builders with at least 5-10 years of experience, ideally more.\n* **Online reviews and testimonials:** Check sites like Google Reviews, Yelp, Houzz, and Better Business Bureau (BBB) for reviews from past clients. Pay close attention to recurring themes, both positive and negative.\n* **References:** Ask for a list of references and contact several past clients to discuss their experiences.  Ask about timelines, communication, quality of work, and how the builder handled problems.\n* **Awards and recognitions:** Industry awards can indicate a commitment to quality and excellence.\n* **Warranty information:**  Understand the builder's warranty coverage and its terms.  A strong warranty demonstrates confidence in their work.\n\n**II. Financial Stability & Insurance:**\n\n* **Financial health:** A financially stable builder is less likely to encounter problems that could delay or compromise your project.  Inquire about their financial standing or check with resources like Dun & Bradstreet.\n* **Insurance coverage:** Ensure they have adequate liability and worker's compensation insurance to protect you from potential issues.  This is crucial in case of accidents or damages.\n* **Licensing and permits:** Verify that the builder is properly licensed and insured to operate in your area.  Check with your local authorities.\n\n\n**III. Communication & Project Management:**\n\n* **Communication style:**  A responsive and clear communicator is essential.  Assess how easily they respond to your questions and concerns.\n* **Project management process:**  Ask for details on their project management process, including timelines, progress updates, and dispute resolution mechanisms. A well-defined process minimizes surprises and delays.\n* **Contract clarity:** Carefully review the contract before signing, ensuring all details are clear, including payment schedules, materials, and timelines.  Consult with a lawyer if needed.\n* **Change order process:**  Understand how changes to the plans will be handled, including costs and timelines.\n\n\n**IV.  Quality & Materials:**\n\n* **Materials used:**  Inquire about the quality of materials they use, ensuring they meet your expectations and standards.\n* **Subcontractor relationships:**  A strong builder maintains positive relationships with reliable subcontractors.  Ask about their subcontractors' experience and reputation.\n* **Site visits:**  Visit completed projects to assess the quality of workmanship firsthand.  Look for attention to detail and overall craftsmanship.\n\n\n**V.  Other Considerations:**\n\n* **Price and value:** Get multiple bids from different builders to compare pricing and value.  Don't solely focus on the lowest price; consider the overall quality and reputation.\n* **Customization options:**  Discuss your specific needs and preferences, and determine if the builder offers sufficient flexibility for customization.\n* **Your personal comfort level:** Choose a builder with whom you feel comfortable working.  Good communication and mutual trust are crucial throughout the entire building process.\n\n\nBy thoroughly investigating these factors, you can increase your chances of finding a reputable home builder who will deliver a quality home that meets your expectations. Remember, building a house is a substantial investment, so take your time and don't rush the decision.\n",
+      "timestamp": 1750135150.1337974,
+      "status": "success",
+      "category": "category_exploration",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "pricing"
+        ],
+        "word_count": 509,
+        "contains_brand": false,
+        "query_category": "category_exploration",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "gemini_21",
+      "stored_at": "2025-06-16T22:42:29.772805"
+    },
+    {
+      "platform": "gemini",
+      "query": "What types of single-family residential homes are available?",
+      "response": "The types of single-family residential homes available are vast and varied, encompassing numerous styles, sizes, and features.  Here's a breakdown by some common categorizations:\n\n**By Architectural Style:**\n\n* **Colonial:**  Characterized by symmetry, columns, dormers, and often a gambrel or gable roof.  Sub-styles include Cape Cod, Georgian, and Dutch Colonial.\n* **Victorian:**  Ornate detailing, elaborate trim, asymmetrical facades, and often towers or turrets.  Sub-styles include Queen Anne, Stick, and Eastlake.\n* **Craftsman:**  Low-pitched roofs, exposed beams, built-in cabinetry, and a focus on natural materials.  Often features a front porch.\n* **Ranch:**  One-story homes with a long, low profile.  Can be simple or more elaborate.\n* **Bungalow:**  Small to medium-sized homes with low-pitched roofs, a front porch, and often a dormer.\n* **Tudor:**  Steeply pitched roofs, half-timbering, decorative brickwork, and often multiple gables.\n* **Mediterranean:**  Low-pitched tile roofs, stucco walls, arched doorways and windows, and often courtyards.\n* **Contemporary/Modern:**  Clean lines, open floor plans, large windows, and a focus on functionality.  Can range from minimalist to more elaborate designs.\n* **Farmhouse:**  Simple, functional designs often featuring a large porch, asymmetrical design, and natural materials.\n* **French Provincial:**  Characterized by steeply pitched roofs, dormers, shutters, and often stone or brick exteriors.\n\n**By Size and Number of Stories:**\n\n* **One-story:**  All living spaces are on a single level.\n* **Two-story:**  Living spaces are spread across two levels.\n* **Multi-story:**  Three or more stories.\n* **Split-level:**  Different levels are staggered, often with a partial basement or raised foundation.\n* **Raised Ranch:**  A variation of the ranch with the basement partially above ground level.\n\n\n**By Construction Materials:**\n\n* **Wood-framed:**  Most common type, using wood for the framing and typically siding, brick, or stone for exterior cladding.\n* **Brick:**  Exterior walls constructed primarily of brick.\n* **Stone:**  Exterior walls constructed primarily of stone.\n* **Concrete:**  Exterior walls and/or structural components made of concrete.\n* **Combination:**  Often uses a combination of different materials.\n\n\n**By Features:**\n\n* **Attached vs. Detached:**  Attached homes share a wall with another dwelling (e.g., townhouses), while detached homes stand alone.\n* **With or without a basement:**  Basements offer additional storage and living space.\n* **With or without a garage:**  Garages provide covered parking and storage.\n\n\nThis isn't an exhaustive list, as many homes blend multiple styles and features.  The specific types of single-family homes available will vary widely depending on location, climate, and local building codes and traditions.\n",
+      "timestamp": 1750135163.6734095,
+      "status": "success",
+      "category": "category_exploration",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 394,
+        "contains_brand": false,
+        "query_category": "category_exploration",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "gemini_22",
+      "stored_at": "2025-06-16T22:42:29.776252"
+    },
+    {
+      "platform": "gemini",
+      "query": "How do home builders in Calgary differ from one another?",
+      "response": "Calgary home builders differ in a multitude of ways, impacting the final product and the customer experience.  Here are some key distinctions:\n\n**1. Size and Scope:**\n\n* **Large-scale builders:** These companies build hundreds or thousands of homes annually, often in large communities. They tend to offer a wider range of floor plans and price points but might have less personalized service.  They often utilize standardized building processes for efficiency.\n* **Medium-sized builders:** These strike a balance, offering more customization options than large builders while still maintaining efficiency and reasonable pricing.\n* **Boutique or custom builders:** These focus on smaller-scale projects, offering highly personalized designs and finishes.  They typically cater to clients seeking unique homes and are often more expensive.\n\n**2. House Styles and Designs:**\n\n* **Specialization:** Some builders specialize in specific architectural styles (e.g., modern, traditional, craftsman) or types of homes (e.g., infills, townhomes, bungalows).\n* **Customization options:** The level of customization varies greatly. Large builders offer limited choices, while custom builders allow for extensive personalization.\n\n**3. Pricing and Target Market:**\n\n* **Price range:** Builders cater to different budgets, from affordable starter homes to luxury residences.\n* **Target demographics:** Some builders focus on families, while others target retirees or young professionals.\n\n**4. Building Quality and Materials:**\n\n* **Standards and materials:** Although all builders must adhere to building codes, the quality of materials and construction techniques can differ significantly. Some builders use higher-end materials and employ more experienced tradespeople.\n* **Warranty and customer service:** The length and comprehensiveness of warranties, and the responsiveness of customer service after the sale, vary widely.\n\n**5. Location and Communities:**\n\n* **Geographic focus:** Some builders focus on specific areas of Calgary, while others operate across the city.\n* **Community involvement:** Some builders are more involved in community development and initiatives than others.\n\n**6. Green Building Practices:**\n\n* **Sustainability focus:**  Some builders prioritize energy efficiency and sustainable building practices, using eco-friendly materials and technologies.  Others may offer limited or no options in this regard.\n\n**7. Customer Service and Communication:**\n\n* **Responsiveness and transparency:**  The level of communication and responsiveness from the builder and their team throughout the building process differs significantly, influencing the overall customer experience.\n\nIn short, choosing a home builder in Calgary requires careful research.  Comparing prices, designs, building quality, warranties, customer reviews, and the builder's reputation is crucial to finding the best fit for individual needs and budget.  Visiting show homes and talking to previous clients is highly recommended.\n",
+      "timestamp": 1750135174.264887,
+      "status": "success",
+      "category": "category_exploration",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 3,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "calgary home builders differ in a multitude of ways, impa",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "focus:** some builders focus on specific areas of calgary, while others operate across the city.",
+            "position": 1968
+          },
+          {
+            "keyword": "Calgary",
+            "context": "in short, choosing a home builder in calgary requires careful research.  comparing prices, des",
+            "position": 2690
+          }
+        ],
+        "sentiment_score": 0.024691358024691357,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing"
+        ],
+        "word_count": 405,
+        "contains_brand": true,
+        "query_category": "category_exploration",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "gemini_23",
+      "stored_at": "2025-06-16T22:42:29.785182"
+    },
+    {
+      "platform": "gemini",
+      "query": "What are the latest trends in single-family residential construction?",
+      "response": "The single-family residential construction market is dynamic, with several key trends shaping new builds in 2024 and beyond:\n\n**1. Focus on Sustainability and Energy Efficiency:**\n\n* **Net-zero and Passive House designs:**  Increasing demand for homes that minimize energy consumption and even generate their own power. This includes advanced insulation, high-performance windows, solar panels, and efficient HVAC systems.\n* **Sustainable materials:**  Growing use of reclaimed wood, recycled materials, and locally sourced products to reduce environmental impact.  This also extends to low-VOC paints and finishes.\n* **Water conservation:**  Features like low-flow fixtures, rainwater harvesting systems, and drought-tolerant landscaping are becoming more common.\n\n**2. Smart Home Technology Integration:**\n\n* **Smart thermostats, lighting, and appliances:**  Automated systems that learn user preferences and optimize energy use.\n* **Security systems:**  Integrated security cameras, door locks, and alarm systems controlled remotely via smartphone apps.\n* **Home automation hubs:**  Centralized systems that manage all smart devices in the home.  Voice control (Alexa, Google Assistant) is becoming ubiquitous.\n\n**3. Flexible and Multi-Functional Spaces:**\n\n* **Open-concept floor plans:**  Continue to be popular, but with a shift towards incorporating more defined zones within the open areas for better organization.\n* **Home offices and learning spaces:**  Dedicated spaces for work and study are increasingly prioritized, reflecting the rise of remote work and online learning.\n* **Multi-generational living:**  Designs accommodating multiple generations living under one roof, with separate living areas but shared amenities.\n\n\n**4. Outdoor Living Spaces:**\n\n* **Larger patios, decks, and porches:**  Emphasis on blurring the lines between indoor and outdoor living.\n* **Outdoor kitchens and fireplaces:**  Extending the functionality and enjoyment of outdoor spaces.\n* **Landscaping and hardscaping:**  Increased focus on creating aesthetically pleasing and functional outdoor environments.\n\n\n**5. Health and Wellness Features:**\n\n* **Improved air quality:**  Systems for filtering air and removing pollutants.\n* **Natural light maximization:**  Large windows and skylights to improve mood and energy levels.\n* **Wellness rooms:**  Dedicated spaces for yoga, meditation, or other wellness activities.\n\n**6. Material and Design Preferences:**\n\n* **Modern farmhouse style:**  Continues to be a popular aesthetic, but with variations incorporating more contemporary elements.\n* **Emphasis on natural materials:**  Wood, stone, and brick are frequently used both inside and outside.\n* **Customizable designs:**  Homebuyers are increasingly seeking opportunities to personalize their homes to reflect their individual tastes and needs.\n\n\n**7. Addressing Supply Chain Challenges:**\n\n* **Prefabrication and modular construction:**  Growing adoption to mitigate delays and cost overruns associated with traditional construction methods.\n* **Value engineering:**  Finding cost-effective alternatives for materials and designs without sacrificing quality.\n\n\n**8.  Increased focus on resilience:**\n\n* **Disaster preparedness:**  Features designed to withstand extreme weather events, such as stronger roofing and impact-resistant windows.\n* **Improved insulation and weather sealing:**  To reduce energy costs and increase comfort in extreme temperatures.\n\nIt's important to note that these trends vary by region and market conditions.  Local building codes, climate, and buyer preferences play a significant role in shaping the specific features and designs of new homes.\n",
+      "timestamp": 1750135186.2011228,
+      "status": "success",
+      "category": "category_exploration",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "pricing",
+          "innovation",
+          "competition"
+        ],
+        "word_count": 484,
+        "contains_brand": false,
+        "query_category": "category_exploration",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "gemini_24",
+      "stored_at": "2025-06-16T22:42:29.793105"
+    },
+    {
+      "platform": "gemini",
+      "query": "Compare home builders in Calgary.",
+      "response": "Comparing home builders in Calgary requires looking at several key factors, and there's no single \"best\" builder, as the ideal choice depends on your individual needs and priorities.  Here's a framework for comparison:\n\n**Factors to Consider When Comparing Calgary Home Builders:**\n\n* **Price Range:**  Builders cater to different budgets.  Some focus on luxury homes, others on more affordable options. Determine your price range upfront to narrow your search.\n\n* **Home Styles and Sizes:**  Do you prefer a single-family home, a townhome, a condo, or a duplex?  Builders specialize in different styles and sizes, so browse their portfolios to see if they align with your vision.\n\n* **Locations:**  Calgary's diverse neighborhoods offer varying amenities, schools, and commutes. Identify your preferred area and check which builders operate there.\n\n* **Reputation and Reviews:**  Research builders' reputations thoroughly. Check online reviews on sites like Google, HomeStars, and Better Business Bureau. Look for consistent positive feedback and address any negative reviews.  Consider the length of time the builder has been in business as an indicator of stability.\n\n* **Warranty and Customer Service:**  A strong warranty is crucial.  Investigate the length and coverage of the warranty offered, as well as the builder's responsiveness to customer issues and their process for addressing concerns.\n\n* **Inclusion of Features and Upgrades:**  Compare the standard features included in the base price with those offered by competitors.  Consider the cost and availability of upgrades.  Some builders offer more inclusive packages than others.\n\n* **Building Process and Timeline:**  Understand the builder's construction process, including estimated timelines.  Inquire about communication frequency and transparency throughout the building process.\n\n* **Showhomes and Model Homes:**  Visiting showhomes allows you to experience the quality of construction, finishes, and overall design firsthand.  This is an invaluable step in the decision-making process.\n\n* **Financing Options:**  Some builders may offer financing options or partnerships with lenders, which can be beneficial.\n\n\n**Popular Calgary Home Builders (Note: This is NOT an exhaustive list, and their rankings fluctuate):**\n\nMany builders operate in Calgary, and their strengths vary.  Research each individually. Some examples include (but are not limited to):\n\n* **Homes by Avi:** Known for larger, more luxurious homes.\n* **Cardel Homes:** Offers a range of styles and price points.\n* **Jayman BUILT:**  A large builder with various communities and home types.\n* **Shane Homes:**  A long-standing builder with a wide selection.\n* **Morrison Homes:** Often focuses on family-friendly communities.\n\n\n**How to Compare:**\n\n1. **Create a Spreadsheet:**  List the builders you're considering and rate them across the factors mentioned above.\n2. **Visit Showhomes:**  This is essential for getting a feel for the quality and style of each builder's work.\n3. **Talk to Current and Past Homeowners:**  If possible, speak with people who have built with the builders you're considering to get firsthand accounts of their experiences.\n4. **Review Contracts Carefully:**  Before signing anything, thoroughly review the contract to understand all terms and conditions.\n\n\nThis detailed approach will help you compare Calgary home builders effectively and choose the one that best meets your needs and expectations. Remember that the home-building process can be complex, so thorough research is key to a positive experience.\n",
+      "timestamp": 1750135204.3882985,
+      "status": "success",
+      "category": "comparison_research",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 6,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "comparing home builders in calgary requires looking at several key factors, and ther",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "**factors to consider when comparing calgary home builders:**",
+            "position": 220
+          },
+          {
+            "keyword": "Calgary",
+            "context": "* **locations:**  calgary's diverse neighborhoods offer varying amenities, ",
+            "position": 682
+          },
+          {
+            "keyword": "Calgary",
+            "context": "**popular calgary home builders (note: this is not an exhaustive li",
+            "position": 2186
+          },
+          {
+            "keyword": "Calgary",
+            "context": "many builders operate in calgary, and their strengths vary.  research each individ",
+            "position": 2291
+          },
+          {
+            "keyword": "Calgary",
+            "context": "this detailed approach will help you compare calgary home builders effectively and choose the one that",
+            "position": 3327
+          }
+        ],
+        "sentiment_score": 0.019305019305019305,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing",
+          "competition"
+        ],
+        "word_count": 518,
+        "contains_brand": true,
+        "query_category": "comparison_research",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "gemini_25",
+      "stored_at": "2025-06-16T22:42:29.809590"
+    },
+    {
+      "platform": "gemini",
+      "query": "What are the top home building companies in Calgary?",
+      "response": "There isn't a definitive \"top\" list of Calgary home builders as rankings depend on criteria like volume of homes built, customer satisfaction (which can fluctuate), and specific types of homes built (e.g., luxury vs. affordable).  However, consistently mentioned among the largest and most reputable home builders in Calgary are:\n\n* **Jayman BUILT:**  A large, well-established builder with a wide range of homes and communities.\n* **Homes by Avi:** Known for its quality and variety of home styles.  Often considered a higher-end builder.\n* **Shane Homes:** Another large-scale builder with extensive experience and various price points.\n* **Pacesetter Homes:**  A significant player in the Calgary market, often building in master-planned communities.\n* **Cardel Homes:** A well-regarded builder with a focus on craftsmanship.  Often positioned in the higher price range.\n\n\nTo find the \"best\" for *you*, consider factors like:\n\n* **Your budget:**  Builders cater to different price points.\n* **Your desired style and size of home:**  Some builders specialize in specific architectural styles or sizes.\n* **Your preferred location:** Builders typically operate in specific areas of Calgary.\n* **Customer reviews and ratings:** Check online reviews and ratings from past clients before making a decision.\n\n\nIt's highly recommended to research several builders, visit their show homes, and read independent reviews before choosing a builder for your new home in Calgary.\n",
+      "timestamp": 1750135213.4822683,
+      "status": "success",
+      "category": "comparison_research",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 5,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "there isn't a definitive \"top\" list of calgary home builders as rankings depend on criteria like",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "g the largest and most reputable home builders in calgary are:",
+            "position": 267
+          },
+          {
+            "keyword": "Calgary",
+            "context": "*pacesetter homes:**  a significant player in the calgary market, often building in master-planned communit",
+            "position": 642
+          },
+          {
+            "keyword": "Calgary",
+            "context": "* builders typically operate in specific areas of calgary.",
+            "position": 1133
+          },
+          {
+            "keyword": "Calgary",
+            "context": "ws before choosing a builder for your new home in calgary.",
+            "position": 1411
+          }
+        ],
+        "sentiment_score": 0.04608294930875576,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "pricing"
+        ],
+        "word_count": 217,
+        "contains_brand": true,
+        "query_category": "comparison_research",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "gemini_26",
+      "stored_at": "2025-06-16T22:42:29.821324"
+    },
+    {
+      "platform": "gemini",
+      "query": "How do prices compare among different home builders in Calgary?",
+      "response": "Comparing prices among different home builders in Calgary is complex and doesn't lend itself to a simple answer like \"Builder A is cheaper than Builder B.\"  Several factors drastically influence pricing:\n\n* **Location:**  Land prices vary wildly across Calgary. A home in a new community in the far south will likely be cheaper than a similar-sized home in a mature, established neighbourhood closer to the city centre.  Builders often operate in specific areas, making direct comparisons difficult.\n\n* **Home Size and Style:** Square footage, number of bedrooms and bathrooms, and architectural style (bungalow, two-storey, laned home, etc.) all significantly impact cost.  Comparing a 1,500 sq ft bungalow to a 2,500 sq ft two-storey from the same builder isn't a fair comparison, let alone comparing those to different builders.\n\n* **Finishes and Upgrades:**  The level of finishing significantly affects price.  Upgrading countertops, appliances, flooring, lighting fixtures, and other features can add thousands or even tens of thousands to the cost.  Builders offer various packages and options, making consistent comparisons challenging.\n\n* **Builder Reputation and Brand:** Established, well-known builders may command higher prices due to their perceived quality and reputation, but this doesn't always translate to better value.\n\n* **Time of Purchase:** Market conditions (interest rates, demand) can significantly influence prices.\n\n**To compare prices effectively, you need to:**\n\n1. **Define your needs:** Determine your desired location, size, style, and features.\n2. **Research builders:** Look at builders operating in your preferred areas.  Check their websites for show homes and price ranges.\n3. **Visit show homes:**  This allows you to see the quality of construction and finishes firsthand. Pay close attention to the included features and any additional upgrade costs.\n4. **Get detailed pricing:**  Request detailed price quotes from multiple builders for homes that are as similar as possible in terms of size, location, and features.  This is crucial for accurate comparison.  Don't hesitate to ask questions about what's included and what's extra.\n5. **Compare apples to apples:** Only compare homes with similar specifications.  Pay attention to the details in each quote to avoid discrepancies.\n\n\nIn summary, there's no single source providing a definitive price comparison for all Calgary home builders.  You need to do the legwork yourself, focusing on specific criteria and obtaining personalized quotes.  Online resources can provide general information about builders and communities but shouldn't be the sole basis for price comparison.\n",
+      "timestamp": 1750135222.703017,
+      "status": "success",
+      "category": "comparison_research",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 3,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "comparing prices among different home builders in calgary is complex and doesn't lend itself to a simple an",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "* **location:**  land prices vary wildly across calgary. a home in a new community in the far south will ",
+            "position": 205
+          },
+          {
+            "keyword": "Calgary",
+            "context": "e providing a definitive price comparison for all calgary home builders.  you need to do the legwork yourse",
+            "position": 2360
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "pricing"
+        ],
+        "word_count": 391,
+        "contains_brand": true,
+        "query_category": "comparison_research",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "gemini_27",
+      "stored_at": "2025-06-16T22:42:29.829548"
+    },
+    {
+      "platform": "gemini",
+      "query": "What services do Calgary home builders typically offer?",
+      "response": "Calgary home builders typically offer a range of services, often customizable based on the client's needs and the type of build (e.g., new build, custom build, infill).  These services commonly include:\n\n**Pre-Construction Phase:**\n\n* **Lot Selection & Acquisition (sometimes):**  Some builders offer assistance in finding and purchasing a lot, though many focus solely on construction.\n* **Design Consultation:**  Helping clients choose a floor plan, customize existing plans, or design a completely custom home.  This may involve architects or in-house design teams.\n* **Budgeting & Financing Assistance:** Providing cost estimates and potentially connecting clients with lenders or mortgage brokers.\n* **Permitting & Approvals:**  Handling the necessary applications and approvals from the city.\n\n**Construction Phase:**\n\n* **Site Preparation:** Clearing the land, grading, and excavating.\n* **Foundation Construction:** Pouring the foundation, installing footings and walls.\n* **Framing:**  Constructing the structural frame of the house.\n* **Roofing:** Installing the roof structure and covering.\n* **Exterior Finishes:** Siding, windows, doors, and other exterior elements.\n* **Interior Finishes:** Drywall, painting, flooring, cabinetry, countertops, and fixtures.\n* **Plumbing & Electrical:** Installing plumbing and electrical systems.\n* **HVAC Installation:**  Installing heating, ventilation, and air conditioning systems.\n* **Landscaping (sometimes):** Basic landscaping may be included, but often this is a separate contract.\n\n**Post-Construction Phase:**\n\n* **Final Walkthrough & Inspection:** A thorough inspection with the client to identify and address any issues.\n* **Warranty & Service:** Providing a warranty covering defects in workmanship and materials.  This might include post-construction service calls.\n* **Possession:**  Transferring ownership of the completed home to the client.\n\n\n**Variations in Services:**\n\nSome builders focus on specific niches, offering additional services like:\n\n* **Luxury Home Construction:** Offering high-end finishes and custom design options.\n* **Sustainable/Green Building:** Incorporating environmentally friendly materials and practices.\n* **Multi-Family Dwellings:** Building townhouses, condos, or other multi-unit structures.\n* **Renovations & Additions:**  Some builders also undertake renovation projects.\n\n\nIt's crucial to remember that the exact services offered vary significantly between builders.  Always clarify the scope of services included in a contract before signing.  Smaller builders might offer a more hands-on and personalized experience, while larger builders may have more standardized processes.\n",
+      "timestamp": 1750135235.04887,
+      "status": "success",
+      "category": "comparison_research",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 1,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "calgary home builders typically offer a range of services",
+            "position": 0
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "customer_service",
+          "pricing"
+        ],
+        "word_count": 348,
+        "contains_brand": true,
+        "query_category": "comparison_research",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "gemini_28",
+      "stored_at": "2025-06-16T22:42:29.853662"
+    },
+    {
+      "platform": "gemini",
+      "query": "Which home builders have the best customer satisfaction ratings?",
+      "response": "There's no single definitive answer to which home builders have the best customer satisfaction ratings because different rating organizations use different methodologies, sample sizes, and timeframes.  Also, satisfaction can vary greatly by region and specific project.\n\nHowever, several builders consistently appear near the top of various rankings.  To get the most up-to-date information, I recommend checking these resources directly:\n\n* **J.D. Power:**  J.D. Power conducts annual customer satisfaction surveys for the homebuilding industry.  Their reports are highly regarded, but often come at a cost for full access to detailed rankings. Check their website for the latest results.\n\n* **Builder Magazine:** This publication frequently publishes articles and rankings related to customer satisfaction and other builder performance metrics.  Look for their \"Builder 100\" and related content.\n\n* **N.A.H.B. (National Association of Home Builders):** While not directly providing customer satisfaction ratings, the NAHB offers resources and industry insights that can help you indirectly assess builder reputations.\n\n* **Angie's List/HomeAdvisor:** These consumer review sites collect feedback from homeowners, providing a less formal, but potentially valuable, perspective. Be aware that reviews can be subjective and may not always reflect the overall quality of a builder.  Remember to read multiple reviews and consider the overall pattern of feedback.\n\n\n**Important Considerations:**\n\n* **Regional Variations:**  A builder with excellent ratings in one state may have lower ratings in another.  Focus on builders operating in your specific geographic area.\n* **Price Point:**  Customer satisfaction can sometimes be correlated with price point.  Luxury builders might score higher simply because they have more resources to address issues.\n* **Specific Project:**  Even the best builders can have occasional problems with specific projects.  Thorough due diligence is always crucial.\n\n\nIn short, researching multiple sources and focusing on your local market is key to finding a home builder with a strong track record of customer satisfaction.  Don't rely on a single ranking \u2013 instead, build a comprehensive understanding of a builder's reputation before signing any contracts.\n",
+      "timestamp": 1750135245.499087,
+      "status": "success",
+      "category": "comparison_research",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing"
+        ],
+        "word_count": 322,
+        "contains_brand": false,
+        "query_category": "comparison_research",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "gemini_29",
+      "stored_at": "2025-06-16T22:42:29.860347"
+    },
+    {
+      "platform": "gemini",
+      "query": "I need a custom home built, what are my options in Calgary?",
+      "response": "Building a custom home in Calgary offers a multitude of options, depending on your budget, desired style, and level of involvement. Here's a breakdown of your choices:\n\n**1. Choosing a Lot:**\n\n* **Existing Lots:**  Many established communities and newer developments offer serviced lots ready for building.  Consider factors like location (proximity to work, schools, amenities), lot size, orientation (sun exposure), and views. Check with the City of Calgary and relevant developers for available lots.  Prices vary wildly based on location and size.\n* **Acreages:**  For those seeking more space and privacy, acreages outside the city limits are an option.  This comes with considerations like well water, septic systems, and potentially higher commuting times.\n* **Infilling:** Building a new home on an existing lot within an established neighbourhood.  This can be challenging due to existing zoning regulations and potential limitations on size and style.\n\n**2. Choosing a Builder:**\n\n* **Custom Home Builders:** These builders work closely with you throughout the entire process, from design to completion. They often have their own design teams or collaborate with architects. Expect a higher level of customization and potentially a higher price tag.  Research local custom home builders, read reviews, and check their portfolios.\n* **Semi-Custom Builders:** Offer a selection of pre-designed plans with options for customization. This provides a balance between cost and personalization.\n* **General Contractors:** You might hire an architect to design your home and then find a general contractor to manage the construction. This offers maximum control but requires more active involvement and project management skills.  You'll also need to coordinate subcontractors yourself.\n\n**3. Design & Architectural Considerations:**\n\n* **Architectural Design:** Hiring an architect allows for greater design freedom and the creation of a truly unique home. They can guide you through the design process and ensure the home meets your needs and building codes.\n* **Pre-designed Plans:** Many builders offer a range of pre-designed floor plans that can be modified to some extent. This is a quicker and often less expensive option than starting from scratch.\n* **Sustainable Building:** Consider incorporating sustainable building materials and practices, such as energy-efficient windows, solar panels, and rainwater harvesting.\n\n**4. Budgeting and Financing:**\n\n* **Land Costs:**  This can vary dramatically depending on location and size.\n* **Construction Costs:**  These depend on the size, design, materials, and finishes you choose. Get multiple detailed quotes from builders.\n* **Permitting and Inspections:**  Factor in the costs associated with obtaining building permits and undergoing inspections throughout the construction process.\n* **Financing:**  Explore different financing options, including mortgages specifically designed for custom home construction.\n\n**5. Timeline:**\n\nBuilding a custom home can take anywhere from 6 months to over a year, depending on the complexity of the design, weather conditions, and availability of materials.\n\n**To start your process:**\n\n1. **Define your budget:** Determine how much you can realistically spend.\n2. **Identify your needs and wants:** Consider the number of bedrooms, bathrooms, style of home, and desired features.\n3. **Start researching lots and builders:** Attend home shows, browse online, and read reviews.\n4. **Meet with potential builders and architects:** Discuss your vision, review their portfolios, and get detailed quotes.\n5. **Secure financing:**  Get pre-approval for a construction loan.\n\n\nRemember, building a custom home is a significant undertaking.  Thorough research, planning, and communication with your chosen builder are essential for a successful outcome.  Don't hesitate to ask lots of questions throughout the process.\n",
+      "timestamp": 1750135261.5288641,
+      "status": "success",
+      "category": "problem_solving",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 2,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "building a custom home in calgary offers a multitude of options, depending on your ",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "(sun exposure), and views. check with the city of calgary and relevant developers for available lots.  pric",
+            "position": 402
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "customer_service",
+          "pricing"
+        ],
+        "word_count": 561,
+        "contains_brand": true,
+        "query_category": "problem_solving",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "gemini_30",
+      "stored_at": "2025-06-16T22:42:29.865199"
+    },
+    {
+      "platform": "gemini",
+      "query": "How do I choose between different home builders?",
+      "response": "Choosing a home builder is a significant decision, impacting your finances, lifestyle, and future. Here's a breakdown of how to navigate the selection process:\n\n**1. Define Your Needs and Wants:**\n\n* **Budget:**  Establish a firm budget, including land costs if applicable.  Builders often offer different price points and packages.\n* **Location:** Pinpoint your preferred area, considering commute, schools, amenities, and lifestyle.\n* **Size and Style:** Decide on the number of bedrooms, bathrooms, and overall square footage.  Consider architectural style preferences (ranch, colonial, modern, etc.).\n* **Features:**  List must-have features (e.g., specific appliances, energy efficiency, smart home technology) and desirable features (e.g., finished basement, outdoor living space).\n* **Timeline:**  Determine your desired move-in date.  Builders have varying schedules.\n\n**2. Research and Shortlist Builders:**\n\n* **Online research:** Explore builder websites, read online reviews (Google Reviews, Yelp, Houzz), and check for Better Business Bureau (BBB) ratings. Look for consistent positive feedback and a lack of significant complaints.\n* **Referrals:** Ask friends, family, and colleagues for recommendations.  Word-of-mouth can be invaluable.\n* **Local home shows:** Attend home shows to meet builders, see their designs, and compare offerings.\n* **Check licenses and insurance:** Verify that the builder is properly licensed and insured in your state or region.  This protects you from potential liabilities.\n\n**3. Evaluate Potential Builders:**\n\n* **Experience and reputation:**  Look for builders with a proven track record, established history, and positive testimonials.\n* **Warranty and guarantees:**  Understand the warranty offered on materials, workmanship, and structural components.  Longer and more comprehensive warranties indicate greater confidence in their work.\n* **Communication and responsiveness:**  Evaluate how responsive the builder is to your inquiries.  Good communication is essential throughout the building process.\n* **Design and customization:**  Assess the level of customization offered. Some builders offer limited choices, while others allow for greater flexibility.\n* **Contract details:**  Carefully review the contract, paying attention to payment schedules, deadlines, change orders, and dispute resolution mechanisms.  Don't hesitate to seek legal advice before signing.\n* **Visit completed homes:**  Tour homes built by the builders you're considering.  Examine the quality of workmanship, materials, and finishes. Talk to current homeowners to gather firsthand feedback.\n* **Financial stability:**  Inquire about the builder's financial health.  A financially stable builder is less likely to encounter difficulties during construction.\n* **Subcontractor relationships:**  A strong relationship with reliable subcontractors can reduce delays and issues.\n\n\n**4. Get Multiple Bids and Compare:**\n\n* **Detailed specifications:** Ensure all bids are based on the same specifications to enable fair comparison.\n* **Itemized costs:**  Review the breakdown of costs to understand where your money is going.\n* **Hidden costs:**  Ask about potential hidden costs, such as permits, inspections, and closing costs.\n* **Payment schedule:** Compare payment schedules and ensure they align with the construction progress.\n\n\n**5. Make Your Decision:**\n\n* **Gut feeling:**  Trust your intuition.  If you feel uncomfortable or uneasy about a builder, it's best to move on.\n* **Overall value:**  Consider the overall value proposition, weighing cost, quality, features, and reputation.\n\n\n**Red Flags:**\n\n* Unlicensed or uninsured builders.\n* High-pressure sales tactics.\n* Vague or incomplete contracts.\n* Negative online reviews or complaints.\n* Unrealistic timelines.\n* Inconsistent communication.\n\n\nBuilding a home is a substantial investment.  Thorough research, careful evaluation, and open communication are key to finding the right builder for your needs.  Don't rush the process, and don't hesitate to ask questions.\n",
+      "timestamp": 1750135276.8462071,
+      "status": "success",
+      "category": "problem_solving",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "pricing",
+          "innovation"
+        ],
+        "word_count": 552,
+        "contains_brand": false,
+        "query_category": "problem_solving",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "gemini_31",
+      "stored_at": "2025-06-16T22:42:29.877651"
+    },
+    {
+      "platform": "gemini",
+      "query": "What should I consider when designing a single-family home?",
+      "response": "Designing a single-family home involves many considerations, which can be broadly categorized as:\n\n**I. Site & Context:**\n\n* **Lot Size and Shape:**  This dictates the overall size and footprint of the house, as well as landscaping possibilities.  Irregular lots require creative solutions.\n* **Topography:**  Slopes, elevation changes, and existing trees impact foundation costs, drainage, views, and the overall design.\n* **Climate and Microclimate:** Sun orientation (for passive solar heating/cooling), prevailing winds, snow load, rainfall, and temperature extremes all affect design choices (e.g., window placement, insulation, roofing).\n* **Views and Privacy:**  Maximizing desirable views and minimizing undesirable ones (neighboring houses, busy streets) is crucial.\n* **Setbacks and Zoning Regulations:**  Local building codes dictate minimum distances from property lines, height restrictions, and other limitations.\n* **Utilities:**  Location of water, sewer, gas, and electricity lines impacts design and construction costs.\n* **Accessibility:**  Consider accessibility needs for current and future occupants, including ramps, wider doorways, and adaptable features.\n\n**II. Function & Lifestyle:**\n\n* **Lifestyle and Needs of Occupants:** How many bedrooms, bathrooms, and living spaces are needed?  Consider hobbies, work-from-home requirements, and family dynamics.\n* **Space Planning:**  Efficient flow between rooms, placement of key features (kitchen, laundry), and storage solutions are critical for a comfortable and functional home.\n* **Room Sizes and Proportions:**  Ensure rooms are appropriately sized for their intended use.\n* **Storage:**  Plan ample storage throughout the house, including closets, pantries, and garage space.\n* **Sustainability and Energy Efficiency:**  Incorporate green building materials, energy-efficient appliances, and passive solar design features.\n* **Maintenance:**  Choose durable and low-maintenance materials to minimize long-term upkeep costs.\n\n**III. Aesthetics & Style:**\n\n* **Architectural Style:**  Choose a style that complements the surrounding neighborhood and reflects your personal taste (e.g., Ranch, Craftsman, Contemporary, Victorian).\n* **Exterior Materials:**  Consider the cost, durability, and aesthetic appeal of siding, roofing, windows, and landscaping.\n* **Interior Finishes:**  Select flooring, countertops, cabinetry, and fixtures that are both beautiful and practical.\n* **Color Palette:**  Create a cohesive color scheme that enhances the mood and atmosphere of the home.\n* **Lighting:**  Plan for both natural and artificial lighting to create a welcoming and functional space.\n\n\n**IV. Budget & Timeline:**\n\n* **Budget:**  Establish a realistic budget early in the design process.  Costs can quickly escalate, so careful planning is crucial.\n* **Timeline:**  Set a realistic timeline for design, permitting, construction, and completion.\n* **Contingency Planning:**  Include a contingency fund to cover unexpected costs or delays.\n\n\n**V. Professional Collaboration:**\n\n* **Architect:** An architect can help with the overall design, ensuring the home meets your needs and complies with building codes.\n* **Engineer:**  Structural, mechanical, electrical, and plumbing (MEP) engineers are essential for ensuring the home is safe and functional.\n* **Contractor:**  A general contractor manages the construction process and coordinates subcontractors.\n\n\nRemember to thoroughly research and compare different options before making decisions.  Start with a clear vision of your needs and preferences, and work collaboratively with professionals to create a single-family home that is both beautiful and functional.\n",
+      "timestamp": 1750135291.7152708,
+      "status": "success",
+      "category": "problem_solving",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 0,
+        "mentions": [],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing"
+        ],
+        "word_count": 490,
+        "contains_brand": false,
+        "query_category": "problem_solving",
+        "brand_mentioned_in_query": false,
+        "organic_mention": false
+      },
+      "id": "gemini_32",
+      "stored_at": "2025-06-16T22:42:29.885411"
+    },
+    {
+      "platform": "gemini",
+      "query": "What is the average timeline for building a single-family home in Calgary?",
+      "response": "The average timeline for building a single-family home in Calgary can vary significantly depending on several factors, including:\n\n* **Complexity of the design:** A more complex design with custom features will take longer.\n* **Size of the home:** Larger homes naturally take longer to build.\n* **Availability of materials:** Supply chain issues can cause delays.\n* **Weather conditions:** Calgary's weather can impact construction, particularly in winter.\n* **Builder's experience and workload:**  A busy builder might have longer lead times.\n* **Permitting process:** Delays in obtaining necessary permits can push back timelines.\n* **Financing:** Delays in securing financing can impact the project start.\n\n\nGenerally, you can expect a timeline of **6-12 months**, but it's not uncommon for projects to take longer, especially if any of the above factors present challenges.  Some simpler builds might be completed faster, while more complex projects could easily exceed a year.\n\nIt's crucial to discuss a realistic timeline with your chosen builder *before* signing any contracts.  They will be able to provide a more accurate estimate based on your specific project.\n",
+      "timestamp": 1750135300.0838425,
+      "status": "success",
+      "category": "problem_solving",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 2,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "age timeline for building a single-family home in calgary can vary significantly depending on several facto",
+            "position": 8
+          },
+          {
+            "keyword": "Calgary",
+            "context": "* **weather conditions:** calgary's weather can impact construction, particularly i",
+            "position": 364
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 175,
+        "contains_brand": true,
+        "query_category": "problem_solving",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "gemini_33",
+      "stored_at": "2025-06-16T22:42:29.893650"
+    },
+    {
+      "platform": "gemini",
+      "query": "How can I find affordable home builders in Calgary?",
+      "response": "Finding affordable home builders in Calgary requires research and a strategic approach.  Here's a breakdown of how to find them:\n\n**1. Online Research:**\n\n* **Calgary Home Builders' Association (CHBA):**  Start with the CHBA website. While it doesn't specifically categorize builders by price, it lists members, allowing you to browse and compare.  Look at their portfolios for styles and price ranges that might suit you.\n* **Online Directories:** Use online search engines like Google, Bing, or Yelp, searching for \"affordable home builders Calgary\" or \"budget-friendly home builders Calgary.\"  Read reviews carefully and be aware that some reviews might be biased.\n* **Real Estate Websites:** Explore websites like Realtor.ca, Zolo, and others.  While these primarily focus on resale homes, you might find new home listings from various builders.  Pay attention to prices per square foot.\n* **Social Media:**  Search Facebook groups, Nextdoor, and other community platforms for recommendations and discussions on builders' experiences.\n\n**2. Networking and Referrals:**\n\n* **Friends and Family:** Ask your network for recommendations. Personal referrals often provide valuable insights into a builder's quality, reliability, and pricing.\n* **Real Estate Agents:**  Even if you're not using an agent to buy a resale home, a real estate agent familiar with the Calgary market can provide valuable information about builders and their price points.  They often have relationships with builders.\n\n\n**3. Consider Different Building Types and Approaches:**\n\n* **Smaller Homes:** Look at smaller floor plans to reduce the overall cost.  Think about your needs and prioritize what's essential.\n* **Modular or Prefabricated Homes:** These options can often be more affordable than traditional stick-built homes. Research companies specializing in these approaches in Calgary.\n* **Land Packages:**  Buying land and hiring a builder separately can sometimes provide more cost control, but it requires more management on your part.\n* **Spec Homes:**  These are homes built by a builder for sale without a specific buyer.  They are usually ready to move into quicker and can sometimes offer a better price.\n\n**4.  Due Diligence:**\n\n* **Get Multiple Quotes:** Don't settle for the first quote. Get at least three quotes from different builders to compare pricing, inclusions, and timelines.\n* **Check References:** Thoroughly investigate the builder's reputation. Contact previous clients to inquire about their experiences.\n* **Review Contracts Carefully:** Before signing any agreement, carefully review the contract with a lawyer or someone knowledgeable in construction contracts. Understand all the terms and conditions, including payment schedules and timelines.\n* **Consider Hidden Costs:** Be aware of potential hidden costs, such as permits, landscaping, and connection fees. Factor these into your budget.\n\n\n**5. Location Considerations:**\n\n* **Outlying Areas:**  Land prices tend to be lower in areas further from the city center, potentially reducing the overall cost of the home.\n\n\nFinding affordable home builders involves balancing price, quality, and reputation.  Don't rush the process.  Thorough research and careful planning will increase your chances of finding a builder that meets your needs and budget. Remember to factor in closing costs and other associated expenses when calculating your affordability.\n",
+      "timestamp": 1750135311.3509483,
+      "status": "success",
+      "category": "problem_solving",
+      "brand_mentioned_in_query": false,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 5,
+        "mentions": [
+          {
+            "keyword": "Calgary",
+            "context": "finding affordable home builders in calgary requires research and a strategic approach.  here",
+            "position": 0
+          },
+          {
+            "keyword": "Calgary",
+            "context": "* **calgary home builders' association (chba):**  start with ",
+            "position": 155
+          },
+          {
+            "keyword": "Calgary",
+            "context": " or yelp, searching for \"affordable home builders calgary\" or \"budget-friendly home builders calgary.\"  rea",
+            "position": 493
+          },
+          {
+            "keyword": "Calgary",
+            "context": "esale home, a real estate agent familiar with the calgary market can provide valuable information about bui",
+            "position": 1312
+          },
+          {
+            "keyword": "Calgary",
+            "context": "rch companies specializing in these approaches in calgary.",
+            "position": 1811
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "pricing"
+        ],
+        "word_count": 496,
+        "contains_brand": true,
+        "query_category": "problem_solving",
+        "brand_mentioned_in_query": false,
+        "organic_mention": true
+      },
+      "id": "gemini_34",
+      "stored_at": "2025-06-16T22:42:29.901642"
+    },
+    {
+      "platform": "gemini",
+      "query": "What do you know about Prominent Homes?",
+      "response": "\"Prominent Homes\" isn't a widely known, established brand or company name in the real estate or homebuilding industry like, for example, Toll Brothers or Lennar.  It's possible that:\n\n* **It's a smaller, regional builder:** Many home builders operate on a local or regional scale and aren't nationally recognized.  Prominent Homes could be one of these.  To find information, you'd need to specify a geographic location (city, state, or region).\n\n* **It's a custom home builder:**  Custom builders often don't have a widely publicized brand name; they rely more on word-of-mouth and referrals.\n\n* **It's a real estate agency with that name:**  A real estate agency might use \"Prominent Homes\" in its name to suggest high-end properties.\n\n* **It's a relatively new company:**  Newly established companies might not yet have a strong online presence.\n\n* **The name is slightly different:** There might be a similar name, with a slight variation, that's the actual company you're thinking of.\n\n\nTo find information about a company called Prominent Homes, you will need to provide more details, such as:\n\n* **Location:** Where is the company based?\n* **Type of business:** Is it a builder, developer, real estate agency, or something else?\n* **Any other details:** Do you know anything else about the company, such as a website address, contact information, or the type of homes they build?\n\n\nWith more specific information, a more accurate answer can be provided.\n",
+      "timestamp": 1750135316.4997907,
+      "status": "success",
+      "category": "direct_brand",
+      "brand_mentioned_in_query": true,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 4,
+        "mentions": [
+          {
+            "keyword": "Prominent Homes",
+            "context": "\"prominent homes\" isn't a widely known, established brand or compa",
+            "position": 0
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "regional scale and aren't nationally recognized.  prominent homes could be one of these.  to find information, you'",
+            "position": 265
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "ith that name:**  a real estate agency might use \"prominent homes\" in its name to suggest high-end properties.",
+            "position": 626
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "to find information about a company called prominent homes, you will need to provide more details, such as:",
+            "position": 992
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 233,
+        "contains_brand": true,
+        "query_category": "direct_brand",
+        "brand_mentioned_in_query": true,
+        "organic_mention": false
+      },
+      "id": "gemini_35",
+      "stored_at": "2025-06-16T22:42:29.910758"
+    },
+    {
+      "platform": "gemini",
+      "query": "Tell me about Prominent Homes reviews.",
+      "response": "I don't have access to real-time information, including specific reviews for businesses like Prominent Homes.  To find reviews for Prominent Homes, you should try searching on these platforms:\n\n* **Google Reviews:** Search \"Prominent Homes reviews\" on Google.  This will likely show Google Business Profile results with customer reviews.\n* **Yelp:**  Search for \"Prominent Homes\" on Yelp.  Yelp is a popular site for business reviews.\n* **Facebook:** If Prominent Homes has a Facebook page, check for reviews there.\n* **Trustpilot:** Search for Prominent Homes on Trustpilot. This site specializes in collecting and displaying customer reviews.\n* **Better Business Bureau (BBB):** Check the BBB website to see if Prominent Homes is listed and what its rating and customer complaints are (if any).\n\n\nRemember that reviews can be subjective.  It's best to read several reviews from different sources to get a balanced perspective.  Also be aware that some reviews may be fake or biased. Look for patterns in the reviews to get a better sense of the overall experience with Prominent Homes.  Pay attention to both positive and negative feedback.\n",
+      "timestamp": 1750135331.8322864,
+      "status": "success",
+      "category": "direct_brand",
+      "brand_mentioned_in_query": true,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 7,
+        "mentions": [
+          {
+            "keyword": "Prominent Homes",
+            "context": "n, including specific reviews for businesses like prominent homes.  to find reviews for prominent homes, you should",
+            "position": 43
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "* **google reviews:** search \"prominent homes reviews\" on google.  this will likely show google",
+            "position": 194
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "* **yelp:**  search for \"prominent homes\" on yelp.  yelp is a popular site for business re",
+            "position": 338
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "* **facebook:** if prominent homes has a facebook page, check for reviews there.",
+            "position": 435
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "* **trustpilot:** search for prominent homes on trustpilot. this site specializes in collectin",
+            "position": 516
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "s bureau (bbb):** check the bbb website to see if prominent homes is listed and what its rating and customer compla",
+            "position": 663
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "get a better sense of the overall experience with prominent homes.  pay attention to both positive and negative fee",
+            "position": 1021
+          }
+        ],
+        "sentiment_score": 0.05649717514124294,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 177,
+        "contains_brand": true,
+        "query_category": "direct_brand",
+        "brand_mentioned_in_query": true,
+        "organic_mention": false
+      },
+      "id": "gemini_36",
+      "stored_at": "2025-06-16T22:42:29.922630"
+    },
+    {
+      "platform": "gemini",
+      "query": "What is the reputation of Prominent Homes in Calgary?",
+      "response": "Prominent Homes' reputation in Calgary is mixed.  While they've built homes and have some satisfied customers, online reviews reveal a significant number of negative experiences.  Complaints frequently center around:\n\n* **Construction quality:** Issues with workmanship, finishing, and materials are commonly cited.  This includes things like leaky roofs, poorly installed windows, and problems with appliances or fixtures.\n* **Customer service:**  Many reviewers report difficulty communicating with the company, slow response times to address problems, and a lack of responsiveness to warranty claims.\n* **Communication throughout the building process:** Delays, lack of updates, and miscommunication are recurrent themes in negative reviews.\n\nIt's important to note that positive reviews also exist, suggesting that some clients have had positive experiences. However, the volume and consistency of negative reviews regarding quality and customer service raise significant concerns.  Potential buyers should thoroughly research specific projects and reviews before considering Prominent Homes.  Visiting completed homes and speaking with previous clients is highly recommended.  It's advisable to proceed with caution and carefully consider the risks involved given the prevalence of negative feedback.\n",
+      "timestamp": 1750135336.1294243,
+      "status": "success",
+      "category": "direct_brand",
+      "brand_mentioned_in_query": true,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 3,
+        "mentions": [
+          {
+            "keyword": "Prominent Homes",
+            "context": "prominent homes' reputation in calgary is mixed.  while they've b",
+            "position": 0
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": " specific projects and reviews before considering prominent homes.  visiting completed homes and speaking with prev",
+            "position": 1030
+          },
+          {
+            "keyword": "Calgary",
+            "context": "prominent homes' reputation in calgary is mixed.  while they've built homes and have som",
+            "position": 0
+          }
+        ],
+        "sentiment_score": -0.1149425287356322,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service"
+        ],
+        "word_count": 174,
+        "contains_brand": true,
+        "query_category": "direct_brand",
+        "brand_mentioned_in_query": true,
+        "organic_mention": false
+      },
+      "id": "gemini_37",
+      "stored_at": "2025-06-16T22:42:29.928459"
+    },
+    {
+      "platform": "gemini",
+      "query": "What types of homes does Prominent Homes specialize in?",
+      "response": "Prominent Homes, based in Utah, specializes in building **high-end custom homes**.  They don't focus on a specific architectural style, but rather cater to clients' individual preferences and desires within the luxury market.  Their portfolio likely showcases a variety of styles depending on the client's vision.\n",
+      "timestamp": 1750135339.6759715,
+      "status": "success",
+      "category": "direct_brand",
+      "brand_mentioned_in_query": true,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 1,
+        "mentions": [
+          {
+            "keyword": "Prominent Homes",
+            "context": "prominent homes, based in utah, specializes in building **high-en",
+            "position": 0
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 45,
+        "contains_brand": true,
+        "query_category": "direct_brand",
+        "brand_mentioned_in_query": true,
+        "organic_mention": false
+      },
+      "id": "gemini_38",
+      "stored_at": "2025-06-16T22:42:29.939366"
+    },
+    {
+      "platform": "gemini",
+      "query": "Are there any recent projects by Prominent Homes I can see?",
+      "response": "I do not have access to real-time information, including up-to-the-minute details on construction projects by specific home builders like Prominent Homes.  To see their recent projects, I recommend you try the following:\n\n* **Check their website:**  Most reputable home builders have a website showcasing their current and recently completed projects. Look for a \"Projects,\" \"Gallery,\" \"Communities,\" or \"New Homes\" section.\n* **Search online:** Use a search engine like Google, Bing, or DuckDuckGo to search for \"Prominent Homes recent projects\" or \"Prominent Homes new homes.\"  This might turn up articles, blog posts, or social media mentions about their work.\n* **Look at real estate listings:** Websites like Zillow, Realtor.com, Trulia, etc., often list new construction homes.  Searching those sites within the geographical areas where Prominent Homes operates might reveal their latest projects.\n* **Visit their social media:**  Many builders have Facebook, Instagram, or other social media pages that show off their latest work.\n* **Contact Prominent Homes directly:** The most reliable way to find out about their recent projects would be to contact them through their website or by phone.\n\n\nRemember to specify the region you're interested in (e.g., \"Prominent Homes recent projects in Austin, Texas\") for more targeted results.\n",
+      "timestamp": 1750135344.5344183,
+      "status": "success",
+      "category": "direct_brand",
+      "brand_mentioned_in_query": true,
+      "brand_keywords": [
+        "Prominent Homes",
+        "Calgary",
+        "single family residential"
+      ],
+      "analysis": {
+        "mentions_found": 5,
+        "mentions": [
+          {
+            "keyword": "Prominent Homes",
+            "context": "struction projects by specific home builders like prominent homes.  to see their recent projects, i recommend you t",
+            "position": 88
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "e like google, bing, or duckduckgo to search for \"prominent homes recent projects\" or \"prominent homes new homes.\" ",
+            "position": 464
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "g those sites within the geographical areas where prominent homes operates might reveal their latest projects.",
+            "position": 793
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "* **contact prominent homes directly:** the most reliable way to find out abo",
+            "position": 1038
+          },
+          {
+            "keyword": "Prominent Homes",
+            "context": "o specify the region you're interested in (e.g., \"prominent homes recent projects in austin, texas\") for more targe",
+            "position": 1212
+          }
+        ],
+        "sentiment_score": 0.05025125628140704,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 199,
+        "contains_brand": true,
+        "query_category": "direct_brand",
+        "brand_mentioned_in_query": true,
+        "organic_mention": false
+      },
+      "id": "gemini_39",
+      "stored_at": "2025-06-16T22:42:29.947175"
+    }
+  ],
+  "reports": [
+    {
+      "summary": {
+        "total_mentions": 87,
+        "total_organic_mentions": 55,
+        "avg_sentiment": 0.04616432783529645,
+        "organic_mention_rate": 1.375,
+        "status": "needs_improvement"
+      },
+      "filename": "data/reports/ai_brand_report_20250616_224229.html",
+      "analysis": {
+        "total_mentions": 87,
+        "total_organic_mentions": 55,
+        "organic_mention_rate": 1.375,
+        "total_responses": 40,
+        "avg_sentiment": 0.04616432783529645,
+        "category_breakdown": {
+          "category_exploration": {
+            "total": 10,
+            "mentions": 9,
+            "organic_mentions": 9
+          },
+          "comparison_research": {
+            "total": 10,
+            "mentions": 26,
+            "organic_mentions": 26
+          },
+          "problem_solving": {
+            "total": 10,
+            "mentions": 20,
+            "organic_mentions": 20
+          },
+          "direct_brand": {
+            "total": 10,
+            "mentions": 32,
+            "organic_mentions": 0
+          }
+        },
+        "analyzed_at": 1750135344.6120613
+      },
+      "recommendations": {
+        "assessment": {
+          "overall_score": 4,
+          "status": "needs_improvement",
+          "summary": "The brand shows a moderate level of engagement but struggles with sentiment and visibility in key discussions."
+        },
+        "recommendations": [
+          {
+            "priority": "high",
+            "action": "Enhance online reputation management.",
+            "rationale": "The average sentiment score of 0.05 indicates a neutral perception. Actively engage with mentions and address concerns to improve overall sentiment."
+          },
+          {
+            "priority": "medium",
+            "action": "Increase content marketing efforts focusing on customer success stories.",
+            "rationale": "Showcasing satisfied clients and their experiences can drive positive sentiment and improve brand perception in the competitive Calgary market."
+          },
+          {
+            "priority": "medium",
+            "action": "Leverage social media platforms to boost visibility.",
+            "rationale": "Prominent Homes can expand its reach by engaging more actively on platforms where potential customers are discussing home builders, thereby improving organic mentions."
+          }
+        ],
+        "content_strategy": [
+          {
+            "type": "blog",
+            "topic": "Top 10 Questions to Ask Your Home Builder",
+            "goal": "Position Prominent Homes as a trusted authority and resource in the home-building process, improving engagement and sentiment."
+          }
+        ],
+        "risks_opportunities": {
+          "risks": [
+            "Negative reviews or mentions could harm brand reputation if not managed proactively."
+          ],
+          "opportunities": [
+            "Increased engagement on social media could lead to higher organic mentions and improved sentiment, positioning Prominent Homes as a leader in the market."
+          ]
+        }
+      },
+      "id": "report_0",
+      "generated_at": "2025-06-16T22:42:29.957953"
+    }
+  ],
+  "created_at": "2025-06-16T22:42:29.643736",
+  "version": "1.0"
+}

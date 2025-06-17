@@ -10,79 +10,149 @@ import yaml
 import time
 
 class QueryGeneratorNode(Node):
-    """Generate relevant search queries for brand monitoring"""
+    """Generate categorized queries based on search intent"""
     
     def prep(self, shared):
         """Read brand configuration from shared store"""
         brand_config = shared.get("brand_config", {})
-        print(f"Generating queries for brand: {brand_config.get('name', 'Unknown')}")
+        print(f"Generating strategic queries for: {brand_config.get('name', 'Unknown')}")
         return brand_config
     
     def exec(self, brand_config):
-        """Generate diverse, relevant search queries using LLM"""
+        """Generate categorized queries using search intent framework"""
         brand_name = brand_config.get("name", "")
         keywords = brand_config.get("keywords", [])
         industry = brand_config.get("industry", "")
         
+        # Remove brand name from keywords for unbiased queries
+        generic_keywords = [k for k in keywords if k.lower() != brand_name.lower()]
+        
         prompt = f"""
-Generate 10 diverse search queries that users might ask AI assistants about the brand "{brand_name}" in the {industry} industry.
+Generate search queries that real users would ask AI assistants when researching {industry} services.
 
-Brand keywords: {', '.join(keywords)}
+BRAND: {brand_name}
+INDUSTRY: {industry}
+SERVICE KEYWORDS: {', '.join(generic_keywords)}
 
-The queries should cover different aspects like:
-- Product/service quality
-- Comparisons with competitors  
-- Customer reviews/opinions
-- Industry leadership
-- Innovation/technology
-- Pricing and value
-- Customer service
-- General brand awareness
+Generate exactly 20 queries across these 4 categories (5 each):
 
-Output as YAML list:
+1. CATEGORY EXPLORATION (user exploring the category - NO brand names)
+   - "Who are the best [category] in [location]?"
+   - "What should I look for when choosing a [service provider]?"
+   
+2. COMPARISON & RESEARCH (user comparing options - NO specific brand names)
+   - "Compare [service providers] in [location]"
+   - "What are the top [category] companies?"
+   
+3. PROBLEM-SOLVING (user has specific needs - NO brand names)
+   - "I need [specific service], what are my options in [location]?"
+   - "How do I choose between different [service providers]?"
+   
+4. DIRECT BRAND (user specifically asking about the brand)
+   - "What do you know about {brand_name}?"
+   - "Tell me about {brand_name} reviews"
+
+CRITICAL RULES:
+- Categories 1-3 should NEVER mention {brand_name} specifically
+- Use generic terms like "{industry}" instead of brand names
+- Focus on user intent, not brand promotion
+
+Output as YAML:
 ```yaml
-queries:
+category_exploration:
   - "query 1"
   - "query 2"
-  # ... etc
+  - "query 3"
+  - "query 4"
+  - "query 5"
+comparison_research:
+  - "query 1"
+  - "query 2"
+  - "query 3"
+  - "query 4"
+  - "query 5"
+problem_solving:
+  - "query 1"
+  - "query 2"
+  - "query 3"
+  - "query 4"
+  - "query 5"
+direct_brand:
+  - "query 1"
+  - "query 2"
+  - "query 3"
+  - "query 4"
+  - "query 5"
 ```"""
         
         response = call_llm(prompt)
         
         try:
-            # Extract YAML from response
             yaml_str = response.split("```yaml")[1].split("```")[0].strip()
             result = yaml.safe_load(yaml_str)
-            queries = result.get("queries", [])
             
-            # Validate we got actual queries
-            if not queries or len(queries) < 5:
-                raise ValueError("Not enough queries generated")
-                
-            return queries
+            # Validate structure
+            required_categories = ['category_exploration', 'comparison_research', 'problem_solving', 'direct_brand']
+            for category in required_categories:
+                if category not in result or len(result[category]) != 5:
+                    raise ValueError(f"Missing or incomplete category: {category}")
+            
+            return result
             
         except Exception as e:
-            print(f"Error parsing LLM response: {e}")
-            # Fallback to hardcoded queries
-            return [
-                f"What do you know about {brand_name}?",
-                f"How does {brand_name} compare to competitors?",
-                f"What are the pros and cons of {brand_name}?",
-                f"Is {brand_name} a good company?",
-                f"What is {brand_name} known for?",
-                f"Tell me about {brand_name} products",
-                f"What do customers think about {brand_name}?",
-                f"Why should I choose {brand_name}?"
-            ]
+            print(f"Error parsing query generation: {e}")
+            # Fallback to hardcoded strategic queries
+            return {
+                "category_exploration": [
+                    f"Who are the best {industry} companies?",
+                    f"What should I look for when choosing a {industry} company?",
+                    f"Top rated {industry} services",
+                    f"How to find reliable {industry} providers",
+                    f"What are the leading {industry} companies?"
+                ],
+                "comparison_research": [
+                    f"Compare {industry} companies",
+                    f"{industry} company reviews and ratings",
+                    f"Which {industry} company offers the best value?",
+                    f"Local {industry} providers vs national companies",
+                    f"How do {industry} prices compare?"
+                ],
+                "problem_solving": [
+                    f"I need {industry} services, what are my options?",
+                    f"Best {industry} providers for beginners",
+                    f"Affordable {industry} services",
+                    f"How long does {industry} typically take?",
+                    f"What should I know before hiring {industry} services?"
+                ],
+                "direct_brand": [
+                    f"What do you know about {brand_name}?",
+                    f"Tell me about {brand_name} reviews",
+                    f"Is {brand_name} a good {industry} company?",
+                    f"How does {brand_name} compare to competitors?",
+                    f"{brand_name} pricing and services"
+                ]
+            }
     
     def post(self, shared, prep_res, exec_res):
-        """Store generated queries in shared store"""
+        """Store categorized queries in shared store"""
+        # Flatten all queries for processing but keep category metadata
+        all_queries = []
+        for category, queries in exec_res.items():
+            for query in queries:
+                all_queries.append({
+                    "query": query,
+                    "category": category,
+                    "brand_mentioned": shared["brand_config"]["name"].lower() in query.lower()
+                })
+        
         shared["queries"] = {
-            "generated": exec_res,
-            "count": len(exec_res),
+            "categorized": exec_res,
+            "all_queries": all_queries,
+            "total_count": len(all_queries),
             "generated_at": time.time()
         }
-        print(f"Generated {len(exec_res)} queries for monitoring")
+        
+        print(f"Generated {len(all_queries)} strategically categorized queries")
         return "default"
 
 class MultiPlatformQueryNode(BatchNode):
@@ -90,15 +160,17 @@ class MultiPlatformQueryNode(BatchNode):
     
     def prep(self, shared):
         """Create query-platform pairs for batch processing"""
-        queries = shared.get("queries", {}).get("generated", [])
+        all_queries = shared.get("queries", {}).get("all_queries", [])
         platforms = ["chatgpt", "gemini"]  # As requested, start with these two
         
         # Create all combinations of queries and platforms
         query_platform_pairs = []
-        for query in queries:
+        for query_data in all_queries:
             for platform in platforms:
                 query_platform_pairs.append({
-                    "query": query,
+                    "query": query_data["query"],
+                    "category": query_data["category"],
+                    "brand_mentioned": query_data["brand_mentioned"],
                     "platform": platform
                 })
         
@@ -109,21 +181,29 @@ class MultiPlatformQueryNode(BatchNode):
         """Execute a single query on a specific platform"""
         query = query_platform_pair["query"]
         platform = query_platform_pair["platform"]
+        category = query_platform_pair["category"]
+        brand_mentioned = query_platform_pair["brand_mentioned"]
         
-        print(f"Querying {platform} with: {query[:50]}...")
+        print(f"Querying {platform} ({category}): {query[:50]}...")
         
+        result = None
         if platform == "chatgpt":
-            return query_chatgpt(query)
+            result = query_chatgpt(query)
         elif platform == "gemini":
-            return query_gemini(query)
+            result = query_gemini(query)
         else:
-            return {
+            result = {
                 "platform": platform,
                 "query": query,
                 "response": "",
                 "status": "error",
                 "error": f"Unknown platform: {platform}"
             }
+        
+        # Add metadata
+        result["category"] = category
+        result["brand_mentioned_in_query"] = brand_mentioned
+        return result
     
     def post(self, shared, prep_res, exec_res_list):
         """Organize responses by platform and store in shared store"""
@@ -144,33 +224,44 @@ class MultiPlatformQueryNode(BatchNode):
         return "default"
 
 class ResponseAnalysisNode(BatchNode):
-    """Analyze AI responses for brand mentions and sentiment"""
+    """Analyze AI responses with intent-based metrics"""
     
     def prep(self, shared):
         """Prepare all responses for analysis"""
         ai_responses = shared.get("ai_responses", {})
         brand_keywords = shared.get("brand_config", {}).get("keywords", [])
         
-        # Flatten all responses with their platform info
+        # Flatten all responses with their metadata
         all_responses = []
         for platform, responses in ai_responses.items():
             for response in responses:
                 response["brand_keywords"] = brand_keywords
                 all_responses.append(response)
         
-        print(f"Analyzing {len(all_responses)} responses for brand mentions")
+        print(f"Analyzing {len(all_responses)} responses for brand mentions and intent")
         return all_responses
     
     def exec(self, response_data):
-        """Analyze a single response for brand mentions"""
+        """Analyze a single response for brand mentions with category context"""
         if response_data.get("status") != "success":
             return response_data  # Skip failed responses
         
         text = response_data.get("response", "")
         brand_keywords = response_data.get("brand_keywords", [])
+        category = response_data.get("category", "unknown")
+        brand_mentioned_in_query = response_data.get("brand_mentioned_in_query", False)
         
         # Analyze the response text
         analysis = analyze_brand_mentions(text, brand_keywords)
+        
+        # Enhanced analysis based on query category
+        analysis["query_category"] = category
+        analysis["brand_mentioned_in_query"] = brand_mentioned_in_query
+        analysis["organic_mention"] = False
+        
+        # Determine if mention is "organic" (query didn't include brand name)
+        if analysis.get("mentions_found", 0) > 0:
+            analysis["organic_mention"] = not brand_mentioned_in_query
         
         # Add analysis to response data
         response_data["analysis"] = analysis
@@ -178,39 +269,68 @@ class ResponseAnalysisNode(BatchNode):
         return response_data
     
     def post(self, shared, prep_res, exec_res_list):
-        """Update responses with analysis and create summary"""
+        """Create sophisticated analysis summary with organic metrics"""
         # Reorganize analyzed responses back by platform
         ai_responses = {"chatgpt": [], "gemini": []}
         
+        # Calculate intent-based metrics
+        category_metrics = {
+            "category_exploration": {"total": 0, "mentions": 0, "organic_mentions": 0},
+            "comparison_research": {"total": 0, "mentions": 0, "organic_mentions": 0},
+            "problem_solving": {"total": 0, "mentions": 0, "organic_mentions": 0},
+            "direct_brand": {"total": 0, "mentions": 0, "organic_mentions": 0}
+        }
+        
         total_mentions = 0
-        total_sentiment = 0
-        sentiment_count = 0
+        total_organic_mentions = 0
+        total_responses = len(exec_res_list)
+        sentiment_scores = []
         
         for response in exec_res_list:
             platform = response.get("platform")
             if platform in ai_responses:
                 ai_responses[platform].append(response)
                 
-                # Aggregate metrics
+                # Calculate category-specific metrics
                 if response.get("analysis"):
-                    total_mentions += response["analysis"].get("mentions_found", 0)
-                    sentiment_score = response["analysis"].get("sentiment_score", 0)
-                    total_sentiment += sentiment_score
-                    sentiment_count += 1
+                    analysis = response["analysis"]
+                    category = analysis.get("query_category", "unknown")
+                    
+                    if category in category_metrics:
+                        category_metrics[category]["total"] += 1
+                        
+                        mentions = analysis.get("mentions_found", 0)
+                        if mentions > 0:
+                            category_metrics[category]["mentions"] += mentions
+                            total_mentions += mentions
+                            
+                            if analysis.get("organic_mention", False):
+                                category_metrics[category]["organic_mentions"] += mentions
+                                total_organic_mentions += mentions
+                    
+                    sentiment_score = analysis.get("sentiment_score", 0)
+                    if sentiment_score != 0:
+                        sentiment_scores.append(sentiment_score)
         
-        # Update shared store with analyzed responses
+        # Calculate sophisticated metrics
+        organic_mention_rate = (total_organic_mentions / total_responses) if total_responses > 0 else 0
+        
+        # Store updated responses and advanced analysis
         shared["ai_responses"] = ai_responses
-        
-        # Create analysis summary
         shared["analysis"] = {
             "total_mentions": total_mentions,
-            "avg_sentiment": total_sentiment / sentiment_count if sentiment_count > 0 else 0,
-            "total_responses": len(exec_res_list),
-            "mention_rate": total_mentions / len(exec_res_list) if exec_res_list else 0,
+            "total_organic_mentions": total_organic_mentions,
+            "organic_mention_rate": organic_mention_rate,
+            "total_responses": total_responses,
+            "avg_sentiment": sum(sentiment_scores) / len(sentiment_scores) if sentiment_scores else 0,
+            "category_breakdown": category_metrics,
             "analyzed_at": time.time()
         }
         
-        print(f"Analysis complete: {total_mentions} mentions found, avg sentiment: {shared['analysis']['avg_sentiment']:.2f}")
+        print(f"Analysis complete:")
+        print(f"  Total mentions: {total_mentions}")
+        print(f"  Organic mentions: {total_organic_mentions}")
+        print(f"  Organic mention rate: {organic_mention_rate:.1%}")
         
         return "default"
 
@@ -238,8 +358,9 @@ class OptimizationAgentNode(Node):
         # Prepare context for the optimization agent
         brand_name = brand_config.get("name", "Unknown")
         total_mentions = analysis.get("total_mentions", 0)
+        total_organic_mentions = analysis.get("total_organic_mentions", 0)
         avg_sentiment = analysis.get("avg_sentiment", 0)
-        mention_rate = analysis.get("mention_rate", 0)
+        organic_mention_rate = analysis.get("organic_mention_rate", 0)
         
         # Get sample mentions for context
         sample_mentions = []
@@ -266,7 +387,8 @@ INDUSTRY: {brand_config.get('industry', 'Unknown')}
 
 PERFORMANCE METRICS:
 - Total mentions found: {total_mentions}
-- Mention rate: {mention_rate:.1%}
+- Organic mentions: {total_organic_mentions}
+- Organic mention rate: {organic_mention_rate:.1%}
 - Average sentiment: {avg_sentiment:.2f} (-1 to 1 scale)
 - Total responses analyzed: {analysis.get('total_responses', 0)}
 
@@ -322,14 +444,14 @@ risks_opportunities:
             return {
                 "assessment": {
                     "overall_score": 5,
-                    "status": "needs_improvement" if total_mentions < 3 else "good",
-                    "summary": f"Found {total_mentions} mentions with {avg_sentiment:.2f} avg sentiment"
+                    "status": "needs_improvement" if total_organic_mentions < 3 else "good",
+                    "summary": f"Found {total_mentions} mentions with {total_organic_mentions} organic ({organic_mention_rate:.1%})"
                 },
                 "recommendations": [
                     {
                         "priority": "high",
                         "action": "Create more authoritative content",
-                        "rationale": "Low mention rate suggests limited AI visibility"
+                        "rationale": "Low organic mention rate suggests limited AI visibility"
                     }
                 ],
                 "content_strategy": [
@@ -382,8 +504,9 @@ class ReportGeneratorNode(Node):
             "html_content": html_report,
             "summary": {
                 "total_mentions": report_data["analysis"].get("total_mentions", 0),
+                "total_organic_mentions": report_data["analysis"].get("total_organic_mentions", 0),
                 "avg_sentiment": report_data["analysis"].get("avg_sentiment", 0),
-                "mention_rate": report_data["analysis"].get("mention_rate", 0),
+                "organic_mention_rate": report_data["analysis"].get("organic_mention_rate", 0),
                 "status": report_data["recommendations"].get("assessment", {}).get("status", "unknown")
             }
         }

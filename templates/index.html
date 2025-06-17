@@ -1,12 +1,14 @@
-# templates/index.html
 {% extends "base.html" %}
 
 {% block title %}Brand Analysis Setup - AI Brand Optimizer{% endblock %}
 
 {% block content %}
 <div class="text-center mb-3">
-    <h1 class="main-title">AI Brand Intelligence</h1>
-    <p class="subtitle">Discover how your brand appears across AI-powered search engines</p>
+    <!-- <h1 class="main-title">AI Brand Intelligence Monitor</h1> -->
+    <p class="subtitle"><strong>Do you know if your business is showing up in AI search results?</strong> More and more
+        consumers are turning to ChatGPT and other AI Tools to help make purchasing decisions.
+        Our AI Brand Intelligence Monitor helps businesses turn LLMs into a powerful new marketing
+        channel — ensuring they’re represented accurately and discovered often.</p>
 </div>
 
 <form action="{{ url_for('analyze') }}" method="POST" class="card" style="max-width: 800px; margin: 0 auto;">
@@ -15,7 +17,7 @@
     <div class="form-grid">
         <div class="input-field">
             <label for="brand_name">Brand Name</label>
-            <input type="text" id="brand_name" name="brand_name" required placeholder="e.g., Prominent Homes">
+            <input type="text" id="brand_name" name="brand_name" required placeholder="e.g., ABC Coffee">
             <div class="input-description">
                 The exact name of your company or brand
             </div>
@@ -23,7 +25,7 @@
 
         <div class="input-field">
             <label for="industry">Industry/Category</label>
-            <input type="text" id="industry" name="industry" required placeholder="e.g., home building">
+            <input type="text" id="industry" name="industry" required placeholder="e.g., Coffee Shop">
             <div class="input-description">
                 What industry or category your business operates in
             </div>
@@ -31,12 +33,12 @@
     </div>
 
     <div class="input-field">
-        <label for="keywords">Service Keywords</label>
+        <label for="keywords">Keywords</label>
         <textarea id="keywords" name="keywords" rows="4"
-            placeholder="home builder&#10;calgary&#10;custom homes&#10;residential construction"></textarea>
+            placeholder="Downtown Calgary&#10;gluten free&#10;dog friendly patio&#10;24/7 Service"></textarea>
         <div class="input-description">
             Enter service/product keywords (one per line). Do NOT include your brand name - these should be generic
-            terms your customers search for.
+            terms your customers search for, and/or are unique differentiators.
         </div>
     </div>
 

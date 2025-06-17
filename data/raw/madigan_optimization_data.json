@@ -1,0 +1,1170 @@
+{
+  "brands": {
+    "madigan_dental": {
+      "name": "madigan dental",
+      "keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "industry": "dental practice",
+      "updated_at": "2025-06-16T15:27:41.768568"
+    }
+  },
+  "queries": [],
+  "responses": [
+    {
+      "platform": "chatgpt",
+      "query": "What are the customer reviews for Madigan Dental in NE Calgary?",
+      "response": "I don't have real-time access to current customer reviews or specific business information. However, you can find customer reviews for Madigan Dental in NE Calgary on platforms like Google Reviews, Yelp, or their social media pages. These platforms often provide insights into patient experiences, service quality, and overall satisfaction. If you're considering their services, it's a good idea to read multiple reviews to get a well-rounded perspective.",
+      "timestamp": 1750109183.553639,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 2,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "ation. however, you can find customer reviews for madigan dental in ne calgary on platforms like google reviews, y",
+            "position": 85
+          },
+          {
+            "keyword": "NE Calgary",
+            "context": "u can find customer reviews for madigan dental in ne calgary on platforms like google reviews, yelp, or their ",
+            "position": 103
+          }
+        ],
+        "sentiment_score": 0.14925373134328357,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service"
+        ],
+        "word_count": 67,
+        "contains_brand": true
+      },
+      "id": "chatgpt_0",
+      "stored_at": "2025-06-16T15:27:41.769129"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "How does Madigan Dental's cosmetic dentistry services compare to other dental practices in Calgary?",
+      "response": "When comparing Madigan Dental's cosmetic dentistry services to other dental practices in Calgary, several factors may come into play. These can include the range of services offered, the expertise and credentials of the dental professionals, patient reviews and testimonials, technology used, and overall patient experience.\n\n1. **Range of Services**: Madigan Dental offers a variety of cosmetic procedures, such as teeth whitening, veneers, bonding, and orthodontics. It's important to compare this range with other practices to see if they specialize in specific treatments or offer a more comprehensive selection.\n\n2. **Expertise and Credentials**: The qualifications and experience of the dental staff at Madigan Dental can set them apart. Look for information on their education, certifications, and any additional training in cosmetic dentistry compared to other clinics.\n\n3. **Patient Reviews**: Online reviews and testimonials can provide insight into patient satisfaction and the quality of care provided. Check platforms like Google, Yelp, or HealthGrades to see how Madigan Dental ranks against other practices in terms of patient experiences.\n\n4. **Technology and Techniques**: The use of modern technology, such as digital imaging or laser treatments, can enhance the cosmetic dentistry experience. Investigate whether Madigan Dental employs the latest techniques and equipment compared to competitors.\n\n5. **Consultation and Customization**: A good cosmetic dentistry practice should offer personalized consultations to understand individual needs and goals. Assess how Madigan Dental approaches this compared to other clinics.\n\n6. **Cost and Insurance Options**: Pricing for cosmetic procedures can vary widely. It\u2019s beneficial to compare the costs and financing options available at Madigan Dental with those at other practices, as well as how they handle insurance claims.\n\n7. **Follow-up Care**: Consider the level of follow-up care offered. Some practices may provide more comprehensive support after procedures, which can be a significant factor in overall satisfaction.\n\nTo make an informed decision, it\u2019s advisable to schedule consultations with a few different practices, including Madigan Dental, to get a feel for their approach and how comfortable you feel with their team.",
+      "timestamp": 1750109193.405077,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 12,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "when comparing madigan dental's cosmetic dentistry services to other dental pra",
+            "position": 0
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "1. **range of services**: madigan dental offers a variety of cosmetic procedures, such as ",
+            "position": 326
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "lifications and experience of the dental staff at madigan dental can set them apart. look for information on their",
+            "position": 659
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "rms like google, yelp, or healthgrades to see how madigan dental ranks against other practices in terms of patient",
+            "position": 1027
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "osmetic dentistry experience. investigate whether madigan dental employs the latest techniques and equipment compa",
+            "position": 1282
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "understand individual needs and goals. assess how madigan dental approaches this compared to other clinics.",
+            "position": 1534
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "pare the costs and financing options available at madigan dental with those at other practices, as well as how the",
+            "position": 1749
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "tations with a few different practices, including madigan dental, to get a feel for their approach and how comfort",
+            "position": 2155
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "when comparing madigan dental's cosmetic dentistry services to other dental practices in calgary, se",
+            "position": 0
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "n, certifications, and any additional training in cosmetic dentistry compared to other clinics.",
+            "position": 782
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "ital imaging or laser treatments, can enhance the cosmetic dentistry experience. investigate whether madigan dental em",
+            "position": 1231
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "5. **consultation and customization**: a good cosmetic dentistry practice should offer personalized consultations ",
+            "position": 1417
+          }
+        ],
+        "sentiment_score": 0.030487804878048783,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing",
+          "innovation",
+          "competition"
+        ],
+        "word_count": 328,
+        "contains_brand": true
+      },
+      "id": "chatgpt_1",
+      "stored_at": "2025-06-16T15:27:41.769613"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What innovative technologies does Dr. Anuka Mahajan use at Madigan Dental?",
+      "response": "Dr. Anuka Mahajan at Madigan Dental incorporates several innovative technologies to enhance patient care and improve dental procedures. Some of these may include:\n\n1. **Digital Impressions**: Utilizing intraoral scanners to create accurate 3D models of patients' teeth, eliminating the need for traditional molds that can be uncomfortable.\n\n2. **CAD/CAM Technology**: Computer-aided design and computer-aided manufacturing allow for the creation of custom dental restorations like crowns and bridges in a single visit.\n\n3. **Laser Dentistry**: Employing dental lasers for procedures such as gum reshaping, cavity removal, and teeth whitening, which can lead to less discomfort and faster recovery times.\n\n4. **Teledentistry**: Offering virtual consultations to improve accessibility for patients and streamline communication.\n\n5. **Cone Beam CT Scanning**: Providing detailed 3D imaging for more precise diagnosis and treatment planning, especially for implants and complex cases.\n\n6. **In-office Whitening Systems**: Utilizing advanced whitening technologies to achieve effective results while minimizing sensitivity.\n\n7. **Patient Management Software**: Implementing advanced software systems for scheduling, billing, and patient records that enhance the overall patient experience.\n\nThese technologies help Dr. Mahajan offer more efficient, comfortable, and effective dental care to her patients. For the most current and specific technologies used, it's advisable to check directly with Madigan Dental or their website.",
+      "timestamp": 1750109201.0390487,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 3,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "dr. anuka mahajan at madigan dental incorporates several innovative technologies to e",
+            "position": 0
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "ogies used, it's advisable to check directly with madigan dental or their website.",
+            "position": 1441
+          },
+          {
+            "keyword": "Dr. Anuka Mahajan",
+            "context": "dr. anuka mahajan at madigan dental incorporates several innovative",
+            "position": 0
+          }
+        ],
+        "sentiment_score": 0.04926108374384236,
+        "sentiment_label": "neutral",
+        "themes": [
+          "customer_service",
+          "innovation"
+        ],
+        "word_count": 203,
+        "contains_brand": true
+      },
+      "id": "chatgpt_2",
+      "stored_at": "2025-06-16T15:27:41.770799"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "Are porcelain veneers from Madigan Dental worth the price compared to competitors?",
+      "response": "When considering whether porcelain veneers from Madigan Dental are worth the price compared to competitors, there are several factors to take into account:\n\n1. **Quality of Materials**: Evaluate the quality of the porcelain used in the veneers. Higher-quality materials can improve durability and aesthetics.\n\n2. **Expertise of the Dentist**: Research the qualifications and experience of the dental professionals at Madigan Dental. Experienced dentists may provide better results, which can justify higher costs.\n\n3. **Technology and Techniques**: Check if they use advanced technology and techniques, such as digital imaging or CAD/CAM systems, which can enhance the precision and fit of the veneers.\n\n4. **Customization**: Consider the level of customization offered. Tailored veneers that match your smile and facial structure can provide a more natural look.\n\n5. **Customer Reviews and Testimonials**: Look for reviews or testimonials from previous patients. Positive feedback can indicate a good value for the price.\n\n6. **Aftercare and Warranty**: Investigate if they offer aftercare services or warranties for their veneers, which can add to the overall value.\n\n7. **Cost Comparison**: Compare the total costs (including consultations, follow-up visits, and any additional treatments) with competitors in your area. Sometimes lower prices can lead to higher long-term costs if quality is compromised.\n\nUltimately, whether the price is worth it will depend on your specific needs, budget, and the value you place on the factors above. It's advisable to consult with the dental office directly for detailed information about their offerings and to schedule a consultation to discuss your options.",
+      "timestamp": 1750109210.0820055,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 3,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "when considering whether porcelain veneers from madigan dental are worth the price compared to competitors, ther",
+            "position": 0
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "ons and experience of the dental professionals at madigan dental. experienced dentists may provide better results,",
+            "position": 367
+          },
+          {
+            "keyword": "porcelain veneers",
+            "context": "when considering whether porcelain veneers from madigan dental are worth the price compared ",
+            "position": 0
+          }
+        ],
+        "sentiment_score": 0.040160642570281124,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing",
+          "innovation",
+          "competition"
+        ],
+        "word_count": 249,
+        "contains_brand": true
+      },
+      "id": "chatgpt_3",
+      "stored_at": "2025-06-16T15:27:41.771842"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What makes Madigan Dental a leader in the dental practice industry?",
+      "response": "Madigan Dental stands out as a leader in the dental practice industry for several reasons:\n\n1. **Comprehensive Care**: They offer a wide range of services, from routine check-ups and cleanings to advanced cosmetic and restorative dentistry. This comprehensive approach allows them to meet the diverse needs of their patients.\n\n2. **Patient-Centered Focus**: Madigan Dental prioritizes patient comfort and satisfaction. They create a welcoming environment, ensuring that patients feel at ease during their visits. Their focus on building strong relationships with patients enhances trust and loyalty.\n\n3. **Advanced Technology**: The practice incorporates the latest dental technologies and techniques, which can improve treatment outcomes and enhance the patient experience. This commitment to innovation helps them stay at the forefront of the industry.\n\n4. **Experienced Team**: The dental professionals at Madigan Dental are highly trained and experienced. Their expertise, combined with ongoing education, ensures that they are knowledgeable about the latest advancements in dental care.\n\n5. **Community Involvement**: Madigan Dental actively participates in community outreach and education, helping to promote oral health awareness. Their involvement strengthens their reputation and connection within the community.\n\n6. **Flexible Scheduling and Accessibility**: They offer flexible appointment options to accommodate busy schedules, making dental care more accessible for their patients.\n\n7. **Positive Reputation**: Consistent positive reviews and testimonials from patients reflect the high standards of care and service provided by Madigan Dental, reinforcing their status as a trusted dental provider.\n\nBy focusing on these key areas, Madigan Dental has established itself as a leader in the dental practice industry, committed to excellence in patient care and innovative dental solutions.",
+      "timestamp": 1750109218.991196,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 6,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "madigan dental stands out as a leader in the dental practice ind",
+            "position": 0
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "2. **patient-centered focus**: madigan dental prioritizes patient comfort and satisfaction. the",
+            "position": 327
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "**experienced team**: the dental professionals at madigan dental are highly trained and experienced. their experti",
+            "position": 859
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "5. **community involvement**: madigan dental actively participates in community outreach and e",
+            "position": 1093
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "he high standards of care and service provided by madigan dental, reinforcing their status as a trusted dental pro",
+            "position": 1593
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "by focusing on these key areas, madigan dental has established itself as a leader in the dental ",
+            "position": 1715
+          }
+        ],
+        "sentiment_score": 0.038314176245210725,
+        "sentiment_label": "neutral",
+        "themes": [
+          "customer_service",
+          "innovation"
+        ],
+        "word_count": 261,
+        "contains_brand": true
+      },
+      "id": "chatgpt_4",
+      "stored_at": "2025-06-16T15:27:41.773176"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "How does the customer service at Madigan Dental rate against other dental clinics?",
+      "response": "While I don't have specific ratings or reviews for Madigan Dental compared to other dental clinics, customer service in dental practices can often be assessed based on a few key factors:\n\n1. **Patient Experience**: Look for reviews that mention the friendliness and professionalism of the staff, as well as how comfortable patients feel during their visits.\n\n2. **Response Time**: Consider how quickly the clinic responds to inquiries, appointment requests, and follow-up questions.\n\n3. **Communication**: Good dental clinics often excel in explaining procedures, treatment options, and costs clearly to patients.\n\n4. **Wait Times**: Reviews may provide insights into how long patients typically wait for appointments and how efficiently the practice runs.\n\n5. **Accessibility**: Check if the clinic offers flexible scheduling, online appointment booking, and easy access to the office.\n\nTo get a more accurate comparison, you could look at online review platforms, social media, or ask for recommendations from friends or family who have experience with Madigan Dental and other clinics.",
+      "timestamp": 1750109225.6274557,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 2,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "hile i don't have specific ratings or reviews for madigan dental compared to other dental clinics, customer servic",
+            "position": 1
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "s from friends or family who have experience with madigan dental and other clinics.",
+            "position": 1005
+          }
+        ],
+        "sentiment_score": 0.0625,
+        "sentiment_label": "neutral",
+        "themes": [
+          "customer_service",
+          "pricing",
+          "competition"
+        ],
+        "word_count": 160,
+        "contains_brand": true
+      },
+      "id": "chatgpt_5",
+      "stored_at": "2025-06-16T15:27:41.774764"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What are the benefits of choosing Madigan Dental for cosmetic dentistry?",
+      "response": "Choosing Madigan Dental for cosmetic dentistry offers several benefits:\n\n1. **Experienced Professionals**: The team at Madigan Dental includes skilled professionals with extensive training and experience in cosmetic dentistry, ensuring high-quality care.\n\n2. **Comprehensive Services**: Madigan Dental provides a wide range of cosmetic procedures, including teeth whitening, veneers, bonding, and smile makeovers, allowing patients to find solutions tailored to their specific needs.\n\n3. **Personalized Treatment Plans**: Each patient receives a customized treatment plan based on their individual goals, preferences, and dental health, ensuring optimal results.\n\n4. **State-of-the-Art Technology**: The practice utilizes the latest dental technology and techniques, enhancing the accuracy and effectiveness of treatments while ensuring patient comfort.\n\n5. **Focus on Aesthetics and Functionality**: Treatments at Madigan Dental not only enhance the appearance of your smile but also consider the overall functionality of your teeth, promoting long-term oral health.\n\n6. **Patient-Centric Approach**: The team prioritizes patient comfort and satisfaction, providing a welcoming environment and clear communication throughout the treatment process.\n\n7. **Comprehensive Consultations**: Initial consultations include thorough examinations and discussions about options, costs, and expected outcomes, helping patients make informed decisions.\n\n8. **Positive Patient Reviews**: Many patients report high satisfaction levels and successful results, which can provide reassurance about choosing Madigan Dental.\n\n9. **Flexible Financing Options**: To make cosmetic dentistry more accessible, Madigan Dental often offers various financing options or payment plans.\n\n10. **Commitment to Ongoing Education**: The dental team stays updated with the latest advancements in cosmetic dentistry through continuous education, ensuring patients receive the best possible care.\n\nOverall, Madigan Dental combines expertise, technology, and a patient-focused approach to deliver exceptional cosmetic dentistry services.",
+      "timestamp": 1750109234.6022406,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 12,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "choosing madigan dental for cosmetic dentistry offers several benefits:",
+            "position": 0
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "1. **experienced professionals**: the team at madigan dental includes skilled professionals with extensive tra",
+            "position": 73
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "2. **comprehensive services**: madigan dental provides a wide range of cosmetic procedures, inc",
+            "position": 256
+          },
+          {
+            "keyword": "madigan dental",
+            "context": " on aesthetics and functionality**: treatments at madigan dental not only enhance the appearance of your smile but",
+            "position": 865
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "lts, which can provide reassurance about choosing madigan dental.",
+            "position": 1540
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "ns**: to make cosmetic dentistry more accessible, madigan dental often offers various financing options or payment",
+            "position": 1636
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "overall, madigan dental combines expertise, technology, and a patient-foc",
+            "position": 1962
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "choosing madigan dental for cosmetic dentistry offers several benefits:",
+            "position": 0
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "sionals with extensive training and experience in cosmetic dentistry, ensuring high-quality care.",
+            "position": 157
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "9. **flexible financing options**: to make cosmetic dentistry more accessible, madigan dental often offers vari",
+            "position": 1607
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "eam stays updated with the latest advancements in cosmetic dentistry through continuous education, ensuring patients r",
+            "position": 1812
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "a patient-focused approach to deliver exceptional cosmetic dentistry services.",
+            "position": 2022
+          }
+        ],
+        "sentiment_score": 0.03787878787878788,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing",
+          "innovation"
+        ],
+        "word_count": 264,
+        "contains_brand": true
+      },
+      "id": "chatgpt_6",
+      "stored_at": "2025-06-16T15:27:41.777188"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "Can I find testimonials about Dr. Anuka Mahajan's work in cosmetic dentistry?",
+      "response": "To find testimonials about Dr. Anuka Mahajan's work in cosmetic dentistry, you can try the following options:\n\n1. **Official Website**: Check Dr. Mahajan's official practice website, as many dental professionals showcase patient testimonials and case studies.\n\n2. **Social Media**: Look for Dr. Mahajan on social media platforms like Facebook, Instagram, or LinkedIn. Patients often leave reviews and feedback on these platforms.\n\n3. **Google Reviews**: Search for Dr. Anuka Mahajan on Google. The Google Business profile often includes reviews from patients.\n\n4. **Yelp**: Visit Yelp and search for her practice. This platform is dedicated to user reviews and can provide insights into patient experiences.\n\n5. **Healthgrades or Zocdoc**: These websites allow patients to leave reviews for healthcare providers. You can search for Dr. Mahajan on these platforms.\n\n6. **Local Forums or Community Groups**: Sometimes, local community forums or social media groups can provide personal testimonials from patients.\n\n7. **Word of Mouth**: If you know someone who has visited her practice, asking for their feedback can also be valuable.\n\nMake sure to read a variety of testimonials to get a well-rounded view of her work and patient satisfaction.",
+      "timestamp": 1750109244.3544073,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 3,
+        "mentions": [
+          {
+            "keyword": "Dr. Anuka Mahajan",
+            "context": "to find testimonials about dr. anuka mahajan's work in cosmetic dentistry, you can try the fol",
+            "position": 0
+          },
+          {
+            "keyword": "Dr. Anuka Mahajan",
+            "context": "3. **google reviews**: search for dr. anuka mahajan on google. the google business profile often incl",
+            "position": 431
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "nd testimonials about dr. anuka mahajan's work in cosmetic dentistry, you can try the following options:",
+            "position": 5
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 186,
+        "contains_brand": true
+      },
+      "id": "chatgpt_7",
+      "stored_at": "2025-06-16T15:27:41.779019"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "What is the value of services offered at Madigan Dental in relation to pricing?",
+      "response": "To evaluate the value of services offered at Madigan Dental in relation to pricing, you should consider several factors:\n\n1. **Service Range**: Madigan Dental may provide a variety of dental services, including general dentistry, cosmetic procedures, orthodontics, and preventive care. Assessing the breadth of services can help determine overall value.\n\n2. **Quality of Care**: Look for information on the qualifications and experience of the dental professionals, as well as patient reviews and testimonials. High-quality care can justify higher prices.\n\n3. **Technology and Techniques**: Modern dental practices often use advanced technology and techniques that can improve patient outcomes and comfort. If Madigan Dental employs state-of-the-art equipment, this may add value despite higher costs.\n\n4. **Insurance and Payment Plans**: Consider whether they accept various insurance plans and if they offer flexible payment options or financing. This can make services more accessible and affordable.\n\n5. **Location and Convenience**: The convenience of the dental office's location and its hours of operation can also factor into the value. A conveniently located practice may save time and travel costs.\n\n6. **Patient Experience**: The overall patient experience, including office atmosphere, staff friendliness, and wait times, can significantly impact perceived value.\n\nTo get a comprehensive understanding, you might compare Madigan Dental's pricing and services to other local dental practices, taking into account both cost and quality. This way, you can make an informed decision based on your specific dental needs and budget.",
+      "timestamp": 1750109251.1948743,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 4,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "to evaluate the value of services offered at madigan dental in relation to pricing, you should consider sever",
+            "position": 0
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "1. **service range**: madigan dental may provide a variety of dental services, includi",
+            "position": 122
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "that can improve patient outcomes and comfort. if madigan dental employs state-of-the-art equipment, this may add ",
+            "position": 660
+          },
+          {
+            "keyword": "madigan dental",
+            "context": " a comprehensive understanding, you might compare madigan dental's pricing and services to other local dental prac",
+            "position": 1383
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing",
+          "innovation"
+        ],
+        "word_count": 234,
+        "contains_brand": true
+      },
+      "id": "chatgpt_8",
+      "stored_at": "2025-06-16T15:27:41.780640"
+    },
+    {
+      "platform": "chatgpt",
+      "query": "How well-known is Madigan Dental in the NE Calgary community?",
+      "response": "As of my last update in October 2023, I don't have specific data on the recognition or reputation of Madigan Dental in the NE Calgary community. Factors that typically influence a dental practice's visibility and reputation include patient reviews, community engagement, and marketing efforts. To get an accurate sense of how well-known Madigan Dental is in that area, you might consider checking local online reviews, social media presence, or asking community members for their opinions. Additionally, local dental associations or community groups may provide insights into the practice's standing within the community.",
+      "timestamp": 1750109255.2708585,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 3,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "specific data on the recognition or reputation of madigan dental in the ne calgary community. factors that typical",
+            "position": 51
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "forts. to get an accurate sense of how well-known madigan dental is in that area, you might consider checking loca",
+            "position": 287
+          },
+          {
+            "keyword": "NE Calgary",
+            "context": "ecognition or reputation of madigan dental in the ne calgary community. factors that typically influence a den",
+            "position": 73
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 92,
+        "contains_brand": true
+      },
+      "id": "chatgpt_9",
+      "stored_at": "2025-06-16T15:27:41.782450"
+    },
+    {
+      "platform": "gemini",
+      "query": "What are the customer reviews for Madigan Dental in NE Calgary?",
+      "response": "I do not have access to real-time information, including online reviews from sources like Google Reviews, Yelp, or other review platforms.  To find customer reviews for Madigan Dental in NE Calgary, I recommend searching online using a search engine like Google, Bing, or DuckDuckGo.  Try searching for:\n\n* \"Madigan Dental Calgary reviews\"\n* \"Madigan Dental NE Calgary reviews\"\n* \"Madigan Dental [specific address if known] reviews\"\n\nThis should bring up results from various review sites where you can read what past patients have said about their experiences.\n",
+      "timestamp": 1750109185.6117175,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 6,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "r review platforms.  to find customer reviews for madigan dental in ne calgary, i recommend searching online using",
+            "position": 119
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "* \"madigan dental calgary reviews\"",
+            "position": 305
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "* \"madigan dental ne calgary reviews\"",
+            "position": 340
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "* \"madigan dental [specific address if known] reviews\"",
+            "position": 378
+          },
+          {
+            "keyword": "NE Calgary",
+            "context": ".  to find customer reviews for madigan dental in ne calgary, i recommend searching online using a search engi",
+            "position": 137
+          },
+          {
+            "keyword": "NE Calgary",
+            "context": "* \"madigan dental ne calgary reviews\"",
+            "position": 340
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [],
+        "word_count": 87,
+        "contains_brand": true
+      },
+      "id": "gemini_10",
+      "stored_at": "2025-06-16T15:27:41.784542"
+    },
+    {
+      "platform": "gemini",
+      "query": "How does Madigan Dental's cosmetic dentistry services compare to other dental practices in Calgary?",
+      "response": "I do not have access to real-time information, including specific reviews and comparisons of dental practices like Madigan Dental.  To compare Madigan Dental's cosmetic dentistry services to others in Calgary, you should:\n\n* **Check online reviews:** Look at reviews on Google My Business, Yelp, Healthgrades, and other review sites.  Pay attention to comments specifically about cosmetic dentistry services (e.g., veneers, teeth whitening, bonding).  Compare the star ratings and the types of comments across different practices.\n\n* **Visit their websites:** Compare the services offered, the technologies used (e.g., laser whitening), before-and-after photos (be aware these are often carefully selected), and the dentists' qualifications and experience in cosmetic dentistry.\n\n* **Read online articles and forums:** Search for articles comparing Calgary dentists or look at online forums where people discuss their experiences.\n\n* **Contact the practices directly:** Call Madigan Dental and other practices you're considering. Ask about their experience with specific procedures, pricing, payment plans, and what makes their services unique.  Schedule consultations to discuss your needs and get personalized quotes.\n\n* **Ask for referrals:** Talk to friends, family, and colleagues who have had cosmetic dentistry work done in Calgary and get their recommendations.\n\n\nBy using these methods, you can gather the necessary information to make an informed comparison and choose the best cosmetic dentistry practice for your needs in Calgary. Remember that price isn't the only factor; consider the dentist's experience, the quality of care, and your comfort level with the practice.\n",
+      "timestamp": 1750109195.9300444,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 7,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": " reviews and comparisons of dental practices like madigan dental.  to compare madigan dental's cosmetic dentistry ",
+            "position": 65
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "* **contact the practices directly:** call madigan dental and other practices you're considering. ask about",
+            "position": 932
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "like madigan dental.  to compare madigan dental's cosmetic dentistry services to others in calgary, you should:",
+            "position": 110
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "es.  pay attention to comments specifically about cosmetic dentistry services (e.g., veneers, teeth whitening, bonding",
+            "position": 330
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "nd the dentists' qualifications and experience in cosmetic dentistry.",
+            "position": 709
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "k to friends, family, and colleagues who have had cosmetic dentistry work done in calgary and get their recommendation",
+            "position": 1249
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "o make an informed comparison and choose the best cosmetic dentistry practice for your needs in calgary. remember that",
+            "position": 1438
+          }
+        ],
+        "sentiment_score": 0.041666666666666664,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing"
+        ],
+        "word_count": 240,
+        "contains_brand": true
+      },
+      "id": "gemini_11",
+      "stored_at": "2025-06-16T15:27:41.786662"
+    },
+    {
+      "platform": "gemini",
+      "query": "What innovative technologies does Dr. Anuka Mahajan use at Madigan Dental?",
+      "response": "I cannot find publicly available information specifying the exact innovative technologies Dr. Anuka Mahajan uses at Madigan Dental.  Dental practices often don't detail their complete technology lists online for competitive reasons.\n\nTo find out what specific technologies she uses, you would need to:\n\n* **Contact Madigan Dental directly:** Call their office or check their website for contact information.\n* **Check their website (if they have one):** Look for a section on services or technology.  They may list some key technologies used.\n* **Look for reviews:** Patient reviews sometimes mention the technologies used during procedures.\n\n\nKeep in mind that \"innovative\" is subjective.  What one practice considers innovative, another may consider standard.  Common advanced technologies in modern dentistry include CEREC (CAD/CAM) for same-day crowns, digital x-rays, intraoral scanners, and advanced imaging techniques.  However, without direct information from Madigan Dental, it's impossible to say for certain what Dr. Mahajan specifically uses.\n",
+      "timestamp": 1750109203.0358994,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 4,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "innovative technologies dr. anuka mahajan uses at madigan dental.  dental practices often don't detail their compl",
+            "position": 66
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "* **contact madigan dental directly:** call their office or check their webs",
+            "position": 303
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "niques.  however, without direct information from madigan dental, it's impossible to say for certain what dr. maha",
+            "position": 918
+          },
+          {
+            "keyword": "Dr. Anuka Mahajan",
+            "context": "tion specifying the exact innovative technologies dr. anuka mahajan uses at madigan dental.  dental practices often d",
+            "position": 40
+          }
+        ],
+        "sentiment_score": 0.06756756756756756,
+        "sentiment_label": "neutral",
+        "themes": [
+          "customer_service",
+          "innovation"
+        ],
+        "word_count": 148,
+        "contains_brand": true
+      },
+      "id": "gemini_12",
+      "stored_at": "2025-06-16T15:27:41.789540"
+    },
+    {
+      "platform": "gemini",
+      "query": "Are porcelain veneers from Madigan Dental worth the price compared to competitors?",
+      "response": "Determining whether porcelain veneers from Madigan Dental are \"worth the price\" compared to competitors requires a nuanced approach, as there's no single answer.  The value depends on individual circumstances and priorities.  To assess this, you need to consider several factors:\n\n* **Price:** Obtain detailed quotes from Madigan Dental and several reputable competitors.  Simply comparing the total cost isn't enough; analyze the breakdown of costs (materials, procedures, potential add-ons).\n\n* **Dentist's Experience and Reputation:** Research the dentists at Madigan Dental and their experience with porcelain veneers.  Look for online reviews, testimonials, and certifications. Compare their experience and qualifications to those of competing dentists.\n\n* **Quality of Materials and Techniques:**  Inquire about the specific types of porcelain used by Madigan Dental and the techniques employed.  Higher-quality materials and advanced techniques can lead to longer-lasting and more aesthetically pleasing results, but they may also increase the cost.\n\n* **Long-Term Care and Warranty:**  Understand the warranty offered by Madigan Dental and compare it to warranties from other providers.  Consider the long-term maintenance costs associated with veneers.\n\n* **Consultation and Communication:**  A thorough consultation is crucial.  Compare the level of communication and attention you receive from Madigan Dental versus other practices.  Do they take the time to understand your needs and expectations?\n\n* **Your Individual Needs and Expectations:**  The \"best\" veneer provider depends on your specific needs.  Consider factors like the extent of the cosmetic improvement needed, your budget, and your comfort level with the dentist and their practice.\n\n\nIn short, you can't definitively say whether Madigan Dental offers better value than competitors without performing thorough research and comparing all the relevant factors.  Get multiple quotes, do your research, and choose the provider that best meets your needs and budget, considering both the upfront cost and the long-term implications.\n",
+      "timestamp": 1750109213.312171,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 9,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "determining whether porcelain veneers from madigan dental are \"worth the price\" compared to competitors req",
+            "position": 0
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "* **price:** obtain detailed quotes from madigan dental and several reputable competitors.  simply compar",
+            "position": 281
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "rience and reputation:** research the dentists at madigan dental and their experience with porcelain veneers.  loo",
+            "position": 513
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "ire about the specific types of porcelain used by madigan dental and the techniques employed.  higher-quality mate",
+            "position": 808
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "d warranty:**  understand the warranty offered by madigan dental and compare it to warranties from other providers",
+            "position": 1079
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "l of communication and attention you receive from madigan dental versus other practices.  do they take the time to",
+            "position": 1355
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "in short, you can't definitively say whether madigan dental offers better value than competitors without perf",
+            "position": 1762
+          },
+          {
+            "keyword": "porcelain veneers",
+            "context": "determining whether porcelain veneers from madigan dental are \"worth the price\" compare",
+            "position": 0
+          },
+          {
+            "keyword": "porcelain veneers",
+            "context": "tists at madigan dental and their experience with porcelain veneers.  look for online reviews, testimonials, and cert",
+            "position": 554
+          }
+        ],
+        "sentiment_score": 0.034013605442176874,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "pricing",
+          "innovation",
+          "competition"
+        ],
+        "word_count": 294,
+        "contains_brand": true
+      },
+      "id": "gemini_13",
+      "stored_at": "2025-06-16T15:27:41.791505"
+    },
+    {
+      "platform": "gemini",
+      "query": "What makes Madigan Dental a leader in the dental practice industry?",
+      "response": "There's no widely known or established dental practice called \"Madigan Dental\" that's recognized as a *leader* in the industry on a national or even large regional scale.  Large dental chains and groups exist, and many individual practices excel in specific areas, but a singular \"Madigan Dental\" isn't prominent enough to be considered an industry leader.\n\nTo determine what makes *a specific* dental practice a leader, you'd need to provide the location or more details about the practice you're referencing.  Generally, leadership in the dental industry is indicated by factors like:\n\n* **Innovation:**  Adoption of cutting-edge technology, techniques, or materials.\n* **Patient Care:**  Exceptional patient experience, high patient satisfaction scores, and consistently positive reviews.\n* **Clinical Excellence:**  High standards of clinical care, demonstrated through outcomes and adherence to best practices.\n* **Employee Satisfaction and Retention:**  A positive work environment that attracts and retains top-tier dental professionals.\n* **Community Involvement:**  Active participation in community health initiatives.\n* **Business Acumen:**  Successful business model, efficient operations, and strong financial performance.\n* **Awards and Recognition:**  Receiving accolades from professional organizations or publications.\n\nIf you can provide more information about the \"Madigan Dental\" you're interested in, a more specific answer can be given.\n",
+      "timestamp": 1750109221.569775,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 3,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "dely known or established dental practice called \"madigan dental\" that's recognized as a *leader* in the industry ",
+            "position": 13
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "ractices excel in specific areas, but a singular \"madigan dental\" isn't prominent enough to be considered an indus",
+            "position": 231
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "if you can provide more information about the \"madigan dental\" you're interested in, a more specific answer can",
+            "position": 1337
+          }
+        ],
+        "sentiment_score": 0.050761421319796954,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "innovation"
+        ],
+        "word_count": 197,
+        "contains_brand": true
+      },
+      "id": "gemini_14",
+      "stored_at": "2025-06-16T15:27:41.794618"
+    },
+    {
+      "platform": "gemini",
+      "query": "How does the customer service at Madigan Dental rate against other dental clinics?",
+      "response": "I do not have access to real-time information, including reviews and ratings of specific businesses like Madigan Dental.  To determine how Madigan Dental's customer service rates against other dental clinics, I recommend you consult the following resources:\n\n* **Online review sites:** Check sites like Google Reviews, Yelp, Healthgrades, Zocdoc, and Facebook for patient reviews. Look for comments specifically mentioning customer service aspects like appointment scheduling, wait times, staff friendliness, responsiveness to inquiries, and handling of complaints.  Pay attention to both positive and negative feedback.\n\n* **Social media:** Search for Madigan Dental on social media platforms.  Patient comments and responses from the clinic's social media team can offer insights into their customer service approach.\n\n* **Patient surveys:** If Madigan Dental uses patient satisfaction surveys, the results might be available (though not always publicly).\n\nBy comparing the reviews and feedback for Madigan Dental with those of other dental clinics in your area or those you're considering, you can get a better sense of how their customer service compares. Remember that individual experiences can vary, so consider the overall trend of reviews rather than focusing on isolated comments.\n",
+      "timestamp": 1750109227.8133044,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 4,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "g reviews and ratings of specific businesses like madigan dental.  to determine how madigan dental's customer serv",
+            "position": 55
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "* **social media:** search for madigan dental on social media platforms.  patient comments and ",
+            "position": 622
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "* **patient surveys:** if madigan dental uses patient satisfaction surveys, the results mi",
+            "position": 821
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "by comparing the reviews and feedback for madigan dental with those of other dental clinics in your area o",
+            "position": 959
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "customer_service"
+        ],
+        "word_count": 185,
+        "contains_brand": true
+      },
+      "id": "gemini_15",
+      "stored_at": "2025-06-16T15:27:41.796917"
+    },
+    {
+      "platform": "gemini",
+      "query": "What are the benefits of choosing Madigan Dental for cosmetic dentistry?",
+      "response": "I do not have access to real-time information, including specific details about dental practices like Madigan Dental.  To find out the benefits of choosing Madigan Dental for cosmetic dentistry, you should:\n\n* **Visit their website:**  Their website will likely highlight their services, experience, technology, and patient testimonials. Look for sections on cosmetic dentistry, detailing the specific procedures they offer.\n* **Read online reviews:** Check review sites like Google Reviews, Yelp, Healthgrades, or others to see what past patients have said about their experience with cosmetic procedures at Madigan Dental.  Look for comments about the quality of work, the dentist's skill, and the overall patient experience.\n* **Call them directly:**  Call the dental practice and speak to a staff member. They can answer your questions about their cosmetic dentistry services and what makes them stand out.  You can ask about specific procedures, financing options, and the dentist's qualifications.\n\n\nBy using these methods, you can gather the specific benefits of choosing Madigan Dental for your cosmetic dentistry needs, rather than relying on generalized information.\n",
+      "timestamp": 1750109236.566213,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 7,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "ding specific details about dental practices like madigan dental.  to find out the benefits of choosing madigan de",
+            "position": 52
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "bout their experience with cosmetic procedures at madigan dental.  look for comments about the quality of work, th",
+            "position": 559
+          },
+          {
+            "keyword": "madigan dental",
+            "context": " you can gather the specific benefits of choosing madigan dental for your cosmetic dentistry needs, rather than re",
+            "position": 1029
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "d out the benefits of choosing madigan dental for cosmetic dentistry, you should:",
+            "position": 125
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "y, and patient testimonials. look for sections on cosmetic dentistry, detailing the specific procedures they offer.",
+            "position": 309
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "ember. they can answer your questions about their cosmetic dentistry services and what makes them stand out.  you can ",
+            "position": 802
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "ific benefits of choosing madigan dental for your cosmetic dentistry needs, rather than relying on generalized informa",
+            "position": 1053
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "innovation"
+        ],
+        "word_count": 172,
+        "contains_brand": true
+      },
+      "id": "gemini_16",
+      "stored_at": "2025-06-16T15:27:41.799268"
+    },
+    {
+      "platform": "gemini",
+      "query": "Can I find testimonials about Dr. Anuka Mahajan's work in cosmetic dentistry?",
+      "response": "Finding specific testimonials about Dr. Anuka Mahajan's cosmetic dentistry work online might be challenging.  While many dentists have online reviews through platforms like Google Reviews, Yelp, Healthgrades, or their own websites, the availability of such reviews depends on the doctor's practice and their marketing efforts.\n\nTo find testimonials, I suggest trying the following:\n\n* **Search online review platforms:** Search for \"Dr. Anuka Mahajan\" along with \"cosmetic dentistry\" or \"dentist\" on Google Reviews, Yelp, Healthgrades, Zocdoc, and other similar sites.\n* **Check her website:** If she has a professional website, look for a \"testimonials\" or \"reviews\" section.\n* **Search social media:** Look for her on Facebook, Instagram, or other social media platforms where patients might leave comments or reviews.  She may also have a business page.\n* **Contact her office directly:**  Call her dental practice. They may be able to provide you with testimonials or direct you to where you can find patient feedback.\n\nKeep in mind that the availability of online testimonials isn't always an indicator of quality.  Some dentists may not actively solicit reviews, while others may have a more active online presence.\n",
+      "timestamp": 1750109246.4349914,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 4,
+        "mentions": [
+          {
+            "keyword": "Dr. Anuka Mahajan",
+            "context": "finding specific testimonials about dr. anuka mahajan's cosmetic dentistry work online might be challen",
+            "position": 0
+          },
+          {
+            "keyword": "Dr. Anuka Mahajan",
+            "context": "* **search online review platforms:** search for \"dr. anuka mahajan\" along with \"cosmetic dentistry\" or \"dentist\" on ",
+            "position": 383
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "g specific testimonials about dr. anuka mahajan's cosmetic dentistry work online might be challenging.  while many den",
+            "position": 6
+          },
+          {
+            "keyword": "cosmetic dentistry",
+            "context": "rms:** search for \"dr. anuka mahajan\" along with \"cosmetic dentistry\" or \"dentist\" on google reviews, yelp, healthgrad",
+            "position": 414
+          }
+        ],
+        "sentiment_score": 0.0,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality"
+        ],
+        "word_count": 184,
+        "contains_brand": true
+      },
+      "id": "gemini_17",
+      "stored_at": "2025-06-16T15:27:41.802653"
+    },
+    {
+      "platform": "gemini",
+      "query": "What is the value of services offered at Madigan Dental in relation to pricing?",
+      "response": "I cannot access real-time information, including pricing and service details for specific businesses like Madigan Dental.  To find the value of services offered at Madigan Dental in relation to pricing, you should:\n\n* **Visit their website:** Most dental practices have websites listing their services and often price ranges or at least a fee schedule.\n* **Call their office:**  Calling directly allows you to speak with a staff member who can provide detailed information about pricing and the specific services they offer.\n* **Check online review sites:** Sites like Google My Business, Yelp, or Healthgrades may have reviews mentioning pricing and the perceived value of services. However, keep in mind that these are subjective opinions.\n\n\nRemember that the \"value\" is subjective.  A higher price doesn't automatically mean higher value, and vice versa.  Consider factors like:\n\n* **The dentist's experience and qualifications:** A more experienced dentist may charge more.\n* **The quality of materials used:**  Higher-quality materials may be more expensive.\n* **The technology used:**  Practices with advanced technology may have higher fees.\n* **Your insurance coverage:** Your insurance plan will impact your out-of-pocket cost.\n\nBy gathering information from these sources, you can better assess the value of Madigan Dental's services in relation to their pricing.\n",
+      "timestamp": 1750109253.2624443,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 2,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": " and service details for specific businesses like madigan dental.  to find the value of services offered at madiga",
+            "position": 56
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "these sources, you can better assess the value of madigan dental's services in relation to their pricing.",
+            "position": 1268
+          }
+        ],
+        "sentiment_score": -0.04901960784313726,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality",
+          "customer_service",
+          "pricing",
+          "innovation"
+        ],
+        "word_count": 204,
+        "contains_brand": true
+      },
+      "id": "gemini_18",
+      "stored_at": "2025-06-16T15:27:41.805046"
+    },
+    {
+      "platform": "gemini",
+      "query": "How well-known is Madigan Dental in the NE Calgary community?",
+      "response": "I don't have access to real-time information, including local business popularity data.  To determine how well-known Madigan Dental is in NE Calgary, you would need to utilize local resources such as:\n\n* **Online Reviews:** Check Google Reviews, Yelp, and other review platforms.  The number and quality of reviews can indicate popularity and reputation.\n* **Online Presence:** See how their website ranks in search results for \"dentist NE Calgary.\" A high ranking suggests good online visibility.  Also look at their social media presence (Facebook, Instagram, etc.).\n* **Local Directories:** Look for their listing in online business directories specific to Calgary.\n* **Word-of-mouth:** Ask residents in NE Calgary for recommendations on dentists in the area.\n\n\nBy using these methods, you can get a better understanding of Madigan Dental's local recognition and reputation.\n",
+      "timestamp": 1750109257.0115519,
+      "status": "success",
+      "brand_keywords": [
+        "madigan dental",
+        "NE Calgary",
+        "Dr. Anuka Mahajan",
+        "cosmetic dentistry",
+        "porcelain veneers"
+      ],
+      "analysis": {
+        "mentions_found": 5,
+        "mentions": [
+          {
+            "keyword": "madigan dental",
+            "context": "ess popularity data.  to determine how well-known madigan dental is in ne calgary, you would need to utilize local",
+            "position": 67
+          },
+          {
+            "keyword": "madigan dental",
+            "context": "se methods, you can get a better understanding of madigan dental's local recognition and reputation.",
+            "position": 777
+          },
+          {
+            "keyword": "NE Calgary",
+            "context": " to determine how well-known madigan dental is in ne calgary, you would need to utilize local resources such a",
+            "position": 88
+          },
+          {
+            "keyword": "NE Calgary",
+            "context": "heir website ranks in search results for \"dentist ne calgary.\" a high ranking suggests good online visibility.",
+            "position": 387
+          },
+          {
+            "keyword": "NE Calgary",
+            "context": "* **word-of-mouth:** ask residents in ne calgary for recommendations on dentists in the area.",
+            "position": 669
+          }
+        ],
+        "sentiment_score": 0.07692307692307693,
+        "sentiment_label": "neutral",
+        "themes": [
+          "product_quality"
+        ],
+        "word_count": 130,
+        "contains_brand": true
+      },
+      "id": "gemini_19",
+      "stored_at": "2025-06-16T15:27:41.808437"
+    }
+  ],
+  "reports": [
+    {
+      "summary": {
+        "total_mentions": 101,
+        "avg_sentiment": 0.031488447836780106,
+        "mention_rate": 5.05,
+        "status": "needs_improvement"
+      },
+      "filename": "ai_brand_report_20250616_152741.html",
+      "analysis": {
+        "total_mentions": 101,
+        "avg_sentiment": 0.031488447836780106,
+        "total_responses": 20,
+        "mention_rate": 5.05,
+        "analyzed_at": 1750109257.0288708
+      },
+      "recommendations": {
+        "assessment": {
+          "overall_score": 4,
+          "status": "needs_improvement",
+          "summary": "The brand shows a high mention rate but lacks positive sentiment and engagement, indicating a need for better customer perception and interaction."
+        },
+        "recommendations": [
+          {
+            "priority": "high",
+            "action": "Enhance customer engagement through proactive response strategies.",
+            "rationale": "Improving engagement can help turn neutral sentiments into positive ones, increasing overall satisfaction and loyalty."
+          },
+          {
+            "priority": "high",
+            "action": "Conduct a customer feedback survey to gather insights on patient experiences.",
+            "rationale": "Understanding patient concerns and preferences can inform service improvements and marketing strategies, addressing areas that may lead to negative perceptions."
+          },
+          {
+            "priority": "medium",
+            "action": "Develop and promote patient success stories and testimonials.",
+            "rationale": "Positive testimonials can improve brand sentiment and attract new patients by building trust and credibility in the community."
+          }
+        ],
+        "content_strategy": [
+          {
+            "type": "blog post",
+            "topic": "Innovative Dental Technologies at Madigan Dental",
+            "goal": "Educate potential patients on cutting-edge services offered, enhancing the brand's image as a leader in dental technology."
+          }
+        ],
+        "risks_opportunities": {
+          "risks": [
+            "Negative sentiment may lead to potential patients choosing competitors."
+          ],
+          "opportunities": [
+            "High mention rate indicates potential for increased brand awareness; leveraging this can attract more patients."
+          ]
+        }
+      },
+      "id": "report_0",
+      "generated_at": "2025-06-16T15:27:41.812334"
+    }
+  ],
+  "created_at": "2025-06-16T15:27:41.768550",
+  "version": "1.0"
+}

@@ -7,7 +7,11 @@ from typing import Dict, List, Any, Optional
 class SimpleJSONDB:
     """Simple JSON-based database for demo purposes"""
     
-    def __init__(self, db_file: str = "ai_optimization_data.json"):
+    def __init__(self, db_file: str = None):
+        # Default to timestamped file in data/raw
+        if db_file is None:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            db_file = f"data/raw/ai_optimization_data_{timestamp}.json"
         self.db_file = db_file
         self.data = self._load_data()
     
@@ -109,7 +113,7 @@ class SimpleJSONDB:
 
 if __name__ == "__main__":
     # Test the database
-    db = SimpleJSONDB("test_db.json")
+    db = SimpleJSONDB()  # Will use timestamped file in data/raw
     
     # Test brand config
     brand_config = {

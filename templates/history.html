@@ -1,4 +1,3 @@
-# templates/history.html
 {% extends "base.html" %}
 
 {% block title %}Analysis History - AI Brand Optimizer{% endblock %}
@@ -15,13 +14,13 @@
 
     {% for brand_id, brand_data in brands.items() %}
     <div class="output-window">
-        <h3 style="font-weight: 900; margin-bottom: 1rem;">{{ brand_data.name }}</h3>
+        <h3 style="font-weight: 900; margin-bottom: 1rem;">{{ brand_data.get('name', brand_id) }}</h3>
         <div
             style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; font-size: 0.9rem;">
-            <div><strong>Industry:</strong> {{ brand_data.industry }}</div>
-            <div><strong>Keywords:</strong> {{ brand_data.keywords|join(', ') }}</div>
-            <div><strong>Last Updated:</strong> {{ brand_data.updated_at[:10] if brand_data.updated_at else 'Unknown' }}
-            </div>
+            <div><strong>Industry:</strong> {{ brand_data.get('industry', 'Unknown') }}</div>
+            <div><strong>Keywords:</strong> {{ brand_data.get('keywords', [])|join(', ') }}</div>
+            <div><strong>Last Updated:</strong> {{ brand_data.get('updated_at', 'Unknown')[:10] if
+                brand_data.get('updated_at') else 'Unknown' }}</div>
         </div>
     </div>
     {% endfor %}
@@ -35,26 +34,25 @@
     </p>
 
     {% set latest_report = reports[-1] %}
-    {% if latest_report.summary %}
+    {% if latest_report.get('summary') %}
     <div class="output-window">
         <h3 style="font-weight: 900; margin-bottom: 1rem;">Latest Analysis Summary</h3>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem;">
             <div>
-                <strong>Mentions:</strong> {{ latest_report.summary.total_mentions }}
+                <strong>Mentions:</strong> {{ latest_report.summary.get('total_mentions', 0) }}
             </div>
             <div>
                 <strong>Sentiment:</strong>
                 <span
-                    style="color: {% if latest_report.summary.avg_sentiment > 0.2 %}#4CAF50{% elif latest_report.summary.avg_sentiment < -0.2 %}#f44336{% else %}#ff9800{% endif %};">
-                    {{ latest_report.summary.avg_sentiment|round(2) }}
+                    style="color: {% if latest_report.summary.get('avg_sentiment', 0) > 0.2 %}#4CAF50{% elif latest_report.summary.get('avg_sentiment', 0) < -0.2 %}#f44336{% else %}#ff9800{% endif %};">
+                    {{ latest_report.summary.get('avg_sentiment', 0)|round(2) }}
                 </span>
             </div>
             <div>
-                <strong>Status:</strong> {{ latest_report.summary.status|title }}
+                <strong>Status:</strong> {{ latest_report.summary.get('status', 'unknown')|title }}
             </div>
             <div>
-                <strong>Generated:</strong> {{ latest_report.generated_at[:10] if latest_report.generated_at else
-                'Unknown' }}
+                <strong>Generated:</strong> {{ latest_report.get('generated_at', 'Unknown')[:10] }}
             </div>
         </div>
     </div>
