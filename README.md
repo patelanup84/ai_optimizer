@@ -12,6 +12,8 @@ A Generative Engine Optimization (GEO) platform that helps brands monitor and op
 - **PDF Report Export**: Download professional PDF reports for sharing and archiving
 - **Historical Tracking**: Store and analyze performance trends over time
 
+![AI Brand Optimization Tool](screenshot.png)
+
 ## Quick Start
 
 ### 1. Install Dependencies
